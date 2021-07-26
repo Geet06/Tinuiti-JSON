@@ -1,0 +1,182 @@
+{
+  "notifications": [
+    {
+      "clientName": "Mark",
+      "message": "data was succesfully processed",
+      "dateTime": "45 minutes ago"
+    },
+    {
+      "clientName": "John",
+      "message": "data was succesfully processed",
+      "dateTime": "1 hour ago"
+    },
+    {
+      "clientName": "Cynthia",
+      "message": "data was succesfully processed",
+      "dateTime": "25 minutes ago"
+    },
+    {
+      "clientName": "Robert",
+      "message": "data was succesfully processed",
+      "dateTime": "2 hours ago"
+    },
+    {
+      "clientName": "Carol",
+      "message": "data was succesfully processed",
+      "dateTime": "45 minutes ago"
+    },
+    {
+      "clientName": "Cynthia",
+      "message": "data was succesfully processed",
+      "dateTime": "25 minutes ago"
+    },
+    {
+      "clientName": "Robert",
+      "message": "data was succesfully processed",
+      "dateTime": "2 hours ago"
+    },
+    {
+      "clientName": "Carol",
+      "message": "data was succesfully processed",
+      "dateTime": "45 minutes ago"
+    },
+    {
+      "clientName": "John",
+      "message": "data was succesfully processed",
+      "dateTime": "1 hour ago"
+    },
+    {
+      "clientName": "Cynthia",
+      "message": "data was succesfully processed",
+      "dateTime": "25 minutes ago"
+    },
+    {
+      "clientName": "Robert",
+      "message": "data was succesfully processed",
+      "dateTime": "2 hours ago"
+    }
+  ],
+  "companies": [
+    {
+      "companyId": 1,
+      "name": "Accolite"
+    },
+    {
+      "companyId": 2,
+      "name": "Hello"
+    },
+    {
+      "companyId": 3,
+      "name": "Yellow"
+    }
+  ],
+  "accountDetails": [
+    {
+      "accountId": 1,
+      "accountName": "Account 1",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 2,
+      "accountName": "Account 2",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 3,
+      "accountName": "Account 3",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 4,
+      "accountName": "Account 4",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 5,
+      "accountName": "Account 5",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 6,
+      "accountName": "Account 6",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 7,
+      "accountName": "Account 7",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 8,
+      "accountName": "Account 8",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 9,
+      "accountName": "Account 9",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    }
+  ],
+  "sideBarData": [
+    {
+      "dataTool": {
+        "heading": "Data Tool",
+        "data": [
+          {
+            "name": "Data Explorer",
+            "value": "dataExplorer"
+          },
+          {
+            "name": "Data Sets",
+            "value": "dataSets"
+          },
+          {
+            "name": "Templates",
+            "value": "templates"
+          },
+          {
+            "name": "Ruleset Tools",
+            "value": "rulesetsTool"
+          }
+        ]
+      }
+    },
+    {
+      "reportingTool": {
+        "heading": "Reporting Tool",
+        "data": [
+          {
+            "name": "Reports Available",
+            "value": "reportsAvailable"
+          },
+          {
+            "name": "Reports Templates",
+            "value": "reportsTemplates"
+          },
+          {
+            "name": "Reports Ruleset",
+            "value": "reportsRuleset"
+          }
+        ]
+      }
+    }
+  ]
+}
