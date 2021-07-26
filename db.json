@@ -1,61 +1,36 @@
 {
-  "notifications": [
-    {
-      "clientName": "Mark",
-      "message": "data was succesfully processed",
-      "dateTime": "45 minutes ago"
+  "notifications": {
+    "newNotifications": {
+      "heading": "New",
+      "details": [
+        {
+          "clientName": "Mark",
+          "message": "data was succesfully processed",
+          "dateTime": "45 minutes ago"
+        },
+        {
+          "clientName": "John",
+          "message": "data was succesfully processed",
+          "dateTime": "1 hour ago"
+        }
+      ]
     },
-    {
-      "clientName": "John",
-      "message": "data was succesfully processed",
-      "dateTime": "1 hour ago"
-    },
-    {
-      "clientName": "Cynthia",
-      "message": "data was succesfully processed",
-      "dateTime": "25 minutes ago"
-    },
-    {
-      "clientName": "Robert",
-      "message": "data was succesfully processed",
-      "dateTime": "2 hours ago"
-    },
-    {
-      "clientName": "Carol",
-      "message": "data was succesfully processed",
-      "dateTime": "45 minutes ago"
-    },
-    {
-      "clientName": "Cynthia",
-      "message": "data was succesfully processed",
-      "dateTime": "25 minutes ago"
-    },
-    {
-      "clientName": "Robert",
-      "message": "data was succesfully processed",
-      "dateTime": "2 hours ago"
-    },
-    {
-      "clientName": "Carol",
-      "message": "data was succesfully processed",
-      "dateTime": "45 minutes ago"
-    },
-    {
-      "clientName": "John",
-      "message": "data was succesfully processed",
-      "dateTime": "1 hour ago"
-    },
-    {
-      "clientName": "Cynthia",
-      "message": "data was succesfully processed",
-      "dateTime": "25 minutes ago"
-    },
-    {
-      "clientName": "Robert",
-      "message": "data was succesfully processed",
-      "dateTime": "2 hours ago"
+    "previousNotifications": {
+      "heading": "Previous",
+      "details": [
+        {
+          "clientName": "abc",
+          "message": "data was succesfully processed",
+          "dateTime": "45 minutes ago"
+        },
+        {
+          "clientName": "def",
+          "message": "data was succesfully processed",
+          "dateTime": "1 hour ago"
+        }
+      ]
     }
-  ],
+  },
   "companies": [
     {
       "companyId": 1,
@@ -70,113 +45,208 @@
       "name": "Yellow"
     }
   ],
-  "accountDetails": [
+  "onBoardingDetails": [
     {
       "accountId": 1,
-      "accountName": "Account 1",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "accountName": "Account1",
+      "details": [
+        {
+          "type": "heading",
+          "header": "Account Name",
+          "index": 0,
+          "desc": "You are onboarding a new client, let’s get this profile set so you can start creating reports, This is an onboarding process once this is completed you will see an administration pannel",
+          "routingLink": "/onBoarding/1"
+        },
+        {
+          "type": "card",
+          "header": "Information Review",
+          "index": 1,
+          "desc": "We pulled information from different sources, review, add or modify relevant information for the account.",
+          "routingLink": "/onBoarding/accountInformation",
+          "bottonName": "Review Account Information"
+        },
+        {
+          "type": "card",
+          "header": "Add Data Sources",
+          "index": 2,
+          "desc": "Where do you want us to take the information for reporting? Let’s add the sources of information we are going to use for reporting.",
+          "routingLink": "/onBoarding/accountInformation",
+          "bottonName": "Add Data Sources"
+        },
+        {
+          "type": "card",
+          "header": "Prepare Data",
+          "index": 3,
+          "desc": "We created a set of rules that is going to help you prepare your data for reporting, you can modify them and set personalized configurations to prepare the data for reporting.",
+          "routingLink": "/onBoarding/accountInformation",
+          "bottonName": "Prepare Data"
+        },
+        {
+          "type": "card",
+          "header": "Report Settings",
+          "index": 4,
+          "desc": "Once your data is ready we will ask you to create one report, in this step you will be able to choose a template for reporting and set up the configurations for it.",
+          "routingLink": "/onBoarding/accountInformation",
+          "bottonName": "Set a report"
+        }
+      ]
     },
     {
       "accountId": 2,
-      "accountName": "Account 2",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 3,
-      "accountName": "Account 3",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 4,
-      "accountName": "Account 4",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 5,
-      "accountName": "Account 5",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 6,
-      "accountName": "Account 6",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 7,
-      "accountName": "Account 7",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 8,
-      "accountName": "Account 8",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
-    },
-    {
-      "accountId": 9,
-      "accountName": "Account 9",
-      "dataSet": 4,
-      "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "accountName": "Account2",
+      "details": [
+        {
+          "type": "heading",
+          "header": "Account Name",
+          "index": 0,
+          "desc": "You are onboarding a new client, let’s get this profile set so you can start creating reports, This is an onboarding process once this is completed you will see an administration pannel",
+          "routingLink": null
+        },
+        {
+          "type": "card",
+          "header": "Information Review",
+          "index": 1,
+          "desc": "We pulled information from different sources, review, add or modify relevant information for the account.",
+          "routingLink": "/onBoarding/accountInformation",
+          "bottonName": "Review Account Information"
+        },
+        {
+          "type": "card",
+          "header": "Add Data Sources",
+          "index": 2,
+          "desc": "Where do you want us to take the information for reporting? Let’s add the sources of information we are going to use for reporting.",
+          "routingLink": "/onBoarding/accountInformation"
+        },
+        {
+          "type": "card",
+          "header": "Prepare Data",
+          "index": 3,
+          "desc": "We created a set of rules that is going to help you prepare your data for reporting, you can modify them and set personalized configurations to prepare the data for reporting.",
+          "routingLink": "/onBoarding/accountInformation"
+        },
+        {
+          "type": "card",
+          "header": "Report Settings",
+          "index": 4,
+          "desc": "Once your data is ready we will ask you to create one report, in this step you will be able to choose a template for reporting and set up the configurations for it.",
+          "routingLink": "/onBoarding/accountInformation"
+        }
+      ]
     }
   ],
-  "sideBarData": [
-    {
-      "dataTool": {
-        "heading": "Data Tool",
-        "data": [
-          {
-            "name": "Data Explorer",
-            "value": "dataExplorer"
-          },
-          {
-            "name": "Data Sets",
-            "value": "dataSets"
-          },
-          {
-            "name": "Templates",
-            "value": "templates"
-          },
-          {
-            "name": "Ruleset Tools",
-            "value": "rulesetsTool"
-          }
-        ]
+  "accountDetails": {
+    "accountHeading": [
+      {
+        "accountName": "Account Name",
+        "dataSets": "Data Sets",
+        "activeReports": "Active Reports",
+        "lastDataUpdate": "Last Data Update"
       }
+    ],
+    "accountContent": [
+      {
+        "accountId": 1,
+        "accountName": "Account 1",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 2,
+        "accountName": "Account 2",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 3,
+        "accountName": "Account 3",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 4,
+        "accountName": "Account 4",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 5,
+        "accountName": "Account 5",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 6,
+        "accountName": "Account 6",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 7,
+        "accountName": "Account 7",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 8,
+        "accountName": "Account 8",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      },
+      {
+        "accountId": 9,
+        "accountName": "Account 9",
+        "dataSet": 4,
+        "activeReports": 2,
+        "lastDataUpdate": "45 minutes ago"
+      }
+    ]
+  },
+  "sideBarData": {
+    "dataTool": {
+      "heading": "Data Tool",
+      "data": [
+        {
+          "name": "Data Explorer",
+          "value": "dataExplorer"
+        },
+        {
+          "name": "Data Sets",
+          "value": "dataSets"
+        },
+        {
+          "name": "Templates",
+          "value": "templates"
+        },
+        {
+          "name": "Ruleset Tools",
+          "value": "rulesetsTool"
+        }
+      ]
     },
-    {
-      "reportingTool": {
-        "heading": "Reporting Tool",
-        "data": [
-          {
-            "name": "Reports Available",
-            "value": "reportsAvailable"
-          },
-          {
-            "name": "Reports Templates",
-            "value": "reportsTemplates"
-          },
-          {
-            "name": "Reports Ruleset",
-            "value": "reportsRuleset"
-          }
-        ]
-      }
+    "reportingTool": {
+      "heading": "Reporting Tool",
+      "data": [
+        {
+          "name": "Reports Available",
+          "value": "reportsAvailable"
+        },
+        {
+          "name": "Reports Templates",
+          "value": "reportsTemplates"
+        },
+        {
+          "name": "Reports Ruleset",
+          "value": "reportsRuleset"
+        }
+      ]
     }
-  ]
+  }
 }
