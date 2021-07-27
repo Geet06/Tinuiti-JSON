@@ -1,6 +1,6 @@
 {
-  "notifications": {
-    "newNotifications": {
+  "notifications": [
+    {
       "heading": "New",
       "details": [
         {
@@ -15,22 +15,22 @@
         }
       ]
     },
-    "previousNotifications": {
+    {
       "heading": "Previous",
       "details": [
         {
-          "clientName": "abc",
+          "clientName": "Peter",
           "message": "data was succesfully processed",
           "dateTime": "45 minutes ago"
         },
         {
-          "clientName": "def",
+          "clientName": "Ben",
           "message": "data was succesfully processed",
           "dateTime": "1 hour ago"
         }
       ]
     }
-  },
+  ],
   "companies": [
     {
       "companyId": 1,
@@ -134,81 +134,71 @@
       ]
     }
   ],
-  "accountDetails": {
-    "accountHeading": [
-      {
-        "accountName": "Account Name",
-        "dataSets": "Data Sets",
-        "activeReports": "Active Reports",
-        "lastDataUpdate": "Last Data Update"
-      }
-    ],
-    "accountContent": [
-      {
-        "accountId": 1,
-        "accountName": "Account 1",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 2,
-        "accountName": "Account 2",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 3,
-        "accountName": "Account 3",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 4,
-        "accountName": "Account 4",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 5,
-        "accountName": "Account 5",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 6,
-        "accountName": "Account 6",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 7,
-        "accountName": "Account 7",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 8,
-        "accountName": "Account 8",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      },
-      {
-        "accountId": 9,
-        "accountName": "Account 9",
-        "dataSet": 4,
-        "activeReports": 2,
-        "lastDataUpdate": "45 minutes ago"
-      }
-    ]
-  },
+  "accountDetails": [
+    {
+      "accountId": 1,
+      "accountName": "Account 1",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 2,
+      "accountName": "Account 2",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 3,
+      "accountName": "Account 3",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 4,
+      "accountName": "Account 4",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 5,
+      "accountName": "Account 5",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 6,
+      "accountName": "Account 6",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 7,
+      "accountName": "Account 7",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 8,
+      "accountName": "Account 8",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    },
+    {
+      "accountId": 9,
+      "accountName": "Account 9",
+      "dataSet": 4,
+      "activeReports": 2,
+      "lastDataUpdate": "45 minutes ago"
+    }
+  ],
   "sideBarData": {
     "dataTool": {
       "heading": "Data Tool",
