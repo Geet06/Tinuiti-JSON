@@ -31,18 +31,30 @@
       ]
     }
   ],
-  "companies": [
+  "reportsTypeFilter": [
     {
-      "companyId": 1,
-      "name": "Accolite"
+      "id": "RPT_EXEC_OVERVIEW",
+      "title": "Executive Overview"
     },
     {
-      "companyId": 2,
-      "name": "Hello"
+      "id": "RPT_DAILY_OVERVIEW",
+      "title": "Daily Overview"
     },
     {
-      "companyId": 3,
-      "name": "Yellow"
+      "id": "RPT_WEEKLY_OVERVIEW",
+      "title": "Weekly Overview"
+    },
+    {
+      "id": "RPT_DAILY_OVERVIEW",
+      "title": "Daily Overview"
+    },
+    {
+      "id": "RPT_SOCIAL_BREAKDOWN",
+      "title": "Social Breakdown"
+    },
+    {
+      "id": "RPT_SOCIAL_CREATIVE",
+      "title": "Social Creative"
     }
   ],
   "onBoardingDetails": [
