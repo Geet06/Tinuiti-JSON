@@ -31,6 +31,34 @@
       ]
     }
   ],
+  "comparisonPeriod": [
+    {
+      "id": "1",
+      "title": "year Over Year",
+      "name": "YOY"
+    },
+    {
+      "id": "1",
+      "title": "Month Over MOnth",
+      "name": "MOM"
+    }
+  ],
+
+  "dateRange": [
+    {
+      "id": "1",
+      "title": "Month"
+    },
+    {
+      "id": "1",
+      "title": "weekly"
+    },
+    {
+      "id": "1",
+      "title": "Last Week"
+    }
+  ],
+
   "reportsTypeFilter": [
     {
       "id": "RPT_EXEC_OVERVIEW",
