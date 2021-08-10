@@ -35,54 +35,60 @@
     {
       "id": "1",
       "title": "year Over Year",
-      "name": "YOY"
+      "name": "YOY",
+      "checked": false
     },
     {
-      "id": "1",
+      "id": "2",
       "title": "Month Over MOnth",
-      "name": "MOM"
+      "name": "MOM",
+      "checked": false
     }
   ],
 
   "dateRange": [
     {
       "id": "1",
-      "title": "Month"
+      "title": "Month",
+      "checked": false
     },
     {
-      "id": "1",
-      "title": "weekly"
+      "id": "2",
+      "title": "weekly",
+      "checked": false
     },
     {
-      "id": "1",
-      "title": "Last Week"
+      "id": "3",
+      "title": "Last Week",
+      "checked": false
     }
   ],
 
   "reportsTypeFilter": [
     {
       "id": "RPT_EXEC_OVERVIEW",
-      "title": "Executive Overview"
+      "title": "Executive Overview",
+      "checked": false
     },
     {
       "id": "RPT_DAILY_OVERVIEW",
-      "title": "Daily Overview"
+      "title": "Daily Overview",
+      "checked": false
     },
     {
       "id": "RPT_WEEKLY_OVERVIEW",
-      "title": "Weekly Overview"
-    },
-    {
-      "id": "RPT_DAILY_OVERVIEW",
-      "title": "Daily Overview"
+      "title": "Weekly Overview",
+      "checked": false
     },
     {
       "id": "RPT_SOCIAL_BREAKDOWN",
-      "title": "Social Breakdown"
+      "title": "Social Breakdown",
+      "checked": false
     },
     {
       "id": "RPT_SOCIAL_CREATIVE",
-      "title": "Social Creative"
+      "title": "Social Creative",
+      "checked": false
     }
   ],
   "onBoardingDetails": [
@@ -180,63 +186,72 @@
       "accountName": "Account 1",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 2,
       "accountName": "Account 2",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 3,
       "accountName": "Account 3",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 4,
       "accountName": "Account 4",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 5,
       "accountName": "Account 5",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 6,
       "accountName": "Account 6",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 7,
       "accountName": "Account 7",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 8,
       "accountName": "Account 8",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     },
     {
       "accountId": 9,
       "accountName": "Account 9",
       "dataSet": 4,
       "activeReports": 2,
-      "lastDataUpdate": "45 minutes ago"
+      "lastDataUpdate": "45 minutes ago",
+      "checked": false
     }
   ],
   "sideBarData": {
@@ -278,5 +293,51 @@
         }
       ]
     }
-  }
+  },
+  "summaryDetails": [
+    {
+      "fieldName": "accounts",
+      "label": "Accounts",
+      "data": [
+        {
+          "name": "Esty",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "fieldName": "reports",
+      "label": "Report",
+      "data": [
+        {
+          "name": "Executive Overview",
+          "value": "RPT_EXEC_OVERVIEW"
+        }
+      ]
+    },
+    {
+      "fieldName": "lastUpdate",
+      "label": "Last update",
+      "data": [
+        {
+          "name": "3 hrs ago",
+          "value": "3 hrs ago"
+        }
+      ]
+    },
+    {
+      "fieldName": "dateRange",
+      "label": "Date Range",
+      "data": [
+        {
+          "name": "7 / 11 to 7 / 17",
+          "value": "7 / 11 to 7 / 17"
+        },
+        {
+          "name": "2020 / 2021  ",
+          "value": "2020 / 2021  "
+        }
+      ]
+    }
+  ]
 }
