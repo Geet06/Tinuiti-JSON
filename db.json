@@ -300,8 +300,8 @@
       "label": "Accounts",
       "data": [
         {
-          "name": "1",
-          "value": "Esty"
+          "name": "Esty",
+          "value": "1"
         }
       ]
     },
@@ -310,8 +310,8 @@
       "label": "Report",
       "data": [
         {
-          "name": "RPT_EXEC_OVERVIEW",
-          "value": "Executive Overview"
+          "name": "Executive Overview",
+          "value": "RPT_EXEC_OVERVIEW"
         }
       ]
     },
@@ -334,8 +334,111 @@
           "value": "7 / 11 to 7 / 17"
         },
         {
-          "name": "2020 / 2021  ",
-          "value": "2020 / 2021  "
+          "name": "2020 / 2021",
+          "value": "2020 / 2021"
+        }
+      ]
+    }
+  ],
+  "reportsTable": [
+    {
+      "VisualType": "Table",
+      "Rows": 5,
+      "Cols": 7,
+      "tableName": "Executive Overview",
+      "tableId": "1",
+      "groupName": "CampaignType",
+      "groupId": "1",
+      "metrics": [
+        {
+          "name": "CampaignType",
+          "id": "0",
+          "CanSort": false,
+          "CanHide": "",
+          "CanResize": ""
+        },
+        {
+          "name": "click",
+          "id": "1",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        },
+        {
+          "name": "Impression",
+          "id": "2",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        },
+        {
+          "name": "CTR",
+          "id": "3",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        },
+        {
+          "name": "Spend",
+          "id": "4",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        },
+        {
+          "name": "CPC",
+          "id": "5",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        },
+        {
+          "name": "Conversions",
+          "id": "3",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": ""
+        }
+      ],
+      "dimensions": [
+        {
+          "CampaignType": "Branded",
+          "click": "10",
+          "Impression": "15",
+          "CTR": "10",
+          "Spend": "20",
+          "CPC": "20",
+          "Conversions": "30"
+        },
+        {
+          "CampaignType": "Non Branded",
+          "click": "20",
+          "Impression": "15",
+          "CTR": "20",
+          "Spend": "10",
+          "CPC": "40",
+          "Conversions": "25"
+        },
+        {
+          "CampaignType": "Display",
+          "click": "15",
+          "Impression": "25",
+          "CTR": "10",
+          "Spend": "17",
+          "CPC": "20",
+          "Conversions": "20"
+        },
+        {
+          "CampaignType": "Facebook",
+          "click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "15"
+        },
+        {
+          "CampaignType": "Graph"
         }
       ]
     }
