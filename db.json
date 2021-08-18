@@ -355,49 +355,64 @@
           "id": "0",
           "CanSort": false,
           "CanHide": "",
-          "CanResize": ""
+          "CanResize": "",
+          "CanFilter": true
         },
         {
           "name": "click",
           "id": "1",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": true
         },
         {
           "name": "Impression",
           "id": "2",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": true
         },
         {
           "name": "CTR",
           "id": "3",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": true
         },
         {
           "name": "Spend",
           "id": "4",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": true
         },
         {
           "name": "CPC",
           "id": "5",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": true
         },
         {
           "name": "Conversions",
-          "id": "3",
+          "id": "6",
           "CanSort": true,
           "CanResize": "",
-          "CanHide": ""
+          "CanHide": "",
+          "CanFilter": false
+        },
+        {
+          "name": "Graph",
+          "id": "7",
+          "CanSort": true,
+          "CanResize": "",
+          "CanHide": "",
+          "CanFilter": false
         }
       ],
       "dimensions": [
@@ -408,7 +423,10 @@
           "CTR": "10",
           "Spend": "20",
           "CPC": "20",
-          "Conversions": "30"
+          "Conversions": "30",
+          "graphData": [
+              5,20,15,30
+          ]
         },
         {
           "CampaignType": "Non Branded",
@@ -417,7 +435,10 @@
           "CTR": "20",
           "Spend": "10",
           "CPC": "40",
-          "Conversions": "25"
+          "Conversions": "25",
+          "graphData": [
+            5,30,3,90
+          ]
         },
         {
           "CampaignType": "Display",
@@ -426,7 +447,10 @@
           "CTR": "10",
           "Spend": "17",
           "CPC": "20",
-          "Conversions": "20"
+          "Conversions": "20",
+          "graphData": [
+              5,10,15,20
+          ]
         },
         {
           "CampaignType": "Facebook",
@@ -435,10 +459,10 @@
           "CTR": "14",
           "Spend": "15",
           "CPC": "10",
-          "Conversions": "15"
-        },
-        {
-          "CampaignType": "Graph"
+          "Conversions": "15",
+          "graphData": [
+              5,10,15,20
+          ]
         }
       ]
     }
