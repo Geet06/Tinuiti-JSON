@@ -426,7 +426,17 @@
           "Spend": "20",
           "CPC": "20",
           "Conversions": "30",
-          "graphData": [5, 20, 15, 30]
+          "toolTipEnable": true,
+          "toolTipFormat": "",
+          "graphData": [
+            { "key": "Click", "count": 10 },
+            { "key": "Impression", "count": 15 },
+            { "key": "CTR", "count": 50 },
+            { "key": "Spend", "count": 2 },
+            { "key": "CPC", "count": 80 },
+            { "key": "Conversions", "count": 89 },
+            { "key": "Graph", "count": 5 }
+          ]
         },
         {
           "CampaignType": "Non Branded",
@@ -436,7 +446,17 @@
           "Spend": "10",
           "CPC": "40",
           "Conversions": "25",
-          "graphData": [5, 30, 3, 90]
+          "toolTipEnable": true,
+          "toolTipFormat": "",
+          "graphData": [
+            { "key": "Click", "count": 10 },
+            { "key": "Impression", "count": 15 },
+            { "key": "CTR", "count": 50 },
+            { "key": "Spend", "count": 2 },
+            { "key": "CPC", "count": 80 },
+            { "key": "Conversions", "count": 89 },
+            { "key": "Graph", "count": 5 }
+          ]
         },
         {
           "CampaignType": "Display",
@@ -446,7 +466,17 @@
           "Spend": "17",
           "CPC": "20",
           "Conversions": "20",
-          "graphData": [5, 10, 15, 20]
+          "toolTipEnable": true,
+          "toolTipFormat": "",
+          "graphData": [
+            { "key": "Click", "value": 10 },
+            { "key": "Impression", "value": 15 },
+            { "key": "CTR", "value": 50 },
+            { "key": "Spend", "value": 2 },
+            { "key": "CPC", "value": 80 },
+            { "key": "Conversions", "value": 89 },
+            { "key": "Graph", "value": 5 }
+          ]
         },
         {
           "CampaignType": "Facebook",
@@ -456,10 +486,37 @@
           "Spend": "15",
           "CPC": "10",
           "Conversions": "15",
-          "graphData": [5, 10, 15, 20]
+          "toolTipEnable": true,
+          "toolTipFormat": "",
+          "graphData": [
+            { "key": "Click", "value": 10 },
+            { "key": "Impression", "value": 15 },
+            { "key": "CTR", "value": 50 },
+            { "key": "Spend", "value": 2 },
+            { "key": "CPC", "value": 80 },
+            { "key": "Conversions", "value": 89 },
+            { "key": "Graph", "value": 5 }
+          ]
         },
         {
-          "CampaignType": "Graph"
+          "CampaignType": "Graph",
+          "click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "15",
+          "toolTipEnable": true,
+          "toolTipFormat": "",
+          "graphData": [
+            { "key": "Click", "value": 10 },
+            { "key": "Impression", "value": 15 },
+            { "key": "CTR", "value": 50 },
+            { "key": "Spend", "value": 2 },
+            { "key": "CPC", "value": 80 },
+            { "key": "Conversions", "value": 89 },
+            { "key": "Graph", "value": 5 }
+          ]
         }
       ]
     }
@@ -503,7 +560,7 @@
       "ID": "1_1_2_1",
       "categoryId": "1_1_2",
       "name": "Spend_1",
-      "price": 1200
+      "price": 150
     },
     {
       "ID": "1_1_2_2",
