@@ -345,7 +345,9 @@
       "VisualType": "Table",
       "Rows": 5,
       "Cols": 7,
-      "tableName": "Executive Overview",
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Weekly Overview",
       "tableId": "1",
       "groupName": "CampaignType",
       "groupId": "1",
@@ -424,9 +426,7 @@
           "Spend": "20",
           "CPC": "20",
           "Conversions": "30",
-          "graphData": [
-              5,20,15,30
-          ]
+          "graphData": [5, 20, 15, 30]
         },
         {
           "CampaignType": "Non Branded",
@@ -436,9 +436,7 @@
           "Spend": "10",
           "CPC": "40",
           "Conversions": "25",
-          "graphData": [
-            5,30,3,90
-          ]
+          "graphData": [5, 30, 3, 90]
         },
         {
           "CampaignType": "Display",
@@ -448,9 +446,7 @@
           "Spend": "17",
           "CPC": "20",
           "Conversions": "20",
-          "graphData": [
-              5,10,15,20
-          ]
+          "graphData": [5, 10, 15, 20]
         },
         {
           "CampaignType": "Facebook",
@@ -460,9 +456,7 @@
           "Spend": "15",
           "CPC": "10",
           "Conversions": "15",
-          "graphData": [
-              5,10,15,20
-          ]
+          "graphData": [5, 10, 15, 20]
         },
         {
           "CampaignType": "Graph"
