@@ -429,13 +429,13 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "count": 10 },
-            { "key": "Impression", "count": 15 },
-            { "key": "CTR", "count": 50 },
-            { "key": "Spend", "count": 2 },
-            { "key": "CPC", "count": 80 },
-            { "key": "Conversions", "count": 89 },
-            { "key": "Graph", "count": 5 }
+            { "key": "Click", "value": 10 },
+            { "key": "Impression", "value": 15 },
+            { "key": "CTR", "value": 50 },
+            { "key": "Spend", "value": 2 },
+            { "key": "CPC", "value": 80 },
+            { "key": "Conversions", "value": 89 },
+            { "key": "Graph", "value": 5 }
           ]
         },
         {
@@ -449,13 +449,13 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "count": 10 },
-            { "key": "Impression", "count": 15 },
-            { "key": "CTR", "count": 50 },
-            { "key": "Spend", "count": 2 },
-            { "key": "CPC", "count": 80 },
-            { "key": "Conversions", "count": 89 },
-            { "key": "Graph", "count": 5 }
+            { "key": "Click", "value": 80 },
+            { "key": "Impression", "value": 5 },
+            { "key": "CTR", "value": 100 },
+            { "key": "Spend", "value": 20 },
+            { "key": "CPC", "value": 8 },
+            { "key": "Conversions", "value": 60 },
+            { "key": "Graph", "value": 5 }
           ]
         },
         {
@@ -469,12 +469,12 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
+            { "key": "Click", "value": 15 },
+            { "key": "Impression", "value": 80 },
+            { "key": "CTR", "value": 40 },
             { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
+            { "key": "CPC", "value": 100 },
+            { "key": "Conversions", "value": 30 },
             { "key": "Graph", "value": 5 }
           ]
         },
@@ -509,13 +509,13 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
+            { "key": "Click", "value": 46 },
+            { "key": "Impression", "value": 30 },
+            { "key": "CTR", "value": 5 },
+            { "key": "Spend", "value": 90 },
+            { "key": "CPC", "value": 8 },
+            { "key": "Conversions", "value": 20 },
+            { "key": "Graph", "value": 50 }
           ]
         }
       ]
