@@ -802,94 +802,19 @@
     {
       "ID": "1_1",
       "categoryId": 1,
-      "name": "Metrics",
+      "name": "Campaign Type",
       "expanded": true
     },
     {
-      "ID": "1_1_1",
-      "categoryId": "1_1",
-      "name": "Click"
+      "ID": "1_1",
+      "categoryId": "1",
+      "name": "Label"
     },
     {
-      "ID": "1_1_1_1",
-      "categoryId": "1_1_1",
-      "name": "Click_1",
-      "price": 220
-    },
-    {
-      "ID": "1_1_1_2",
-      "categoryId": "1_1_1",
-      "name": "Click_2",
-      "price": 270
-    },
-    {
-      "ID": "1_1_2",
-      "categoryId": "1_1",
-      "name": "Spend",
+      "ID": "1_1",
+      "categoryId": "1",
+      "name": "Group",
       "expanded": true
-    },
-    {
-      "ID": "1_1_2_1",
-      "categoryId": "1_1_2",
-      "name": "Spend_1",
-      "price": 150
-    },
-    {
-      "ID": "1_1_2_2",
-      "categoryId": "1_1_2",
-      "name": "Spend_2",
-      "price": 1450
-    },
-    {
-      "ID": "1_1_2_3",
-      "categoryId": "1_1_2",
-      "name": "Spend_3",
-      "price": 1600
-    },
-    {
-      "ID": "1_1_2_4",
-      "categoryId": "1_1_2",
-      "name": "Spend_4",
-      "price": 1750
-    },
-    {
-      "ID": "1_1_2_5",
-      "categoryId": "1_1_2",
-      "name": "Spend_5",
-      "price": 4000
-    },
-    {
-      "ID": "1_1_3",
-      "categoryId": "1_1",
-      "name": "Conversion"
-    },
-    {
-      "ID": "1_1_3_1",
-      "categoryId": "1_1_3",
-      "name": "Conversion_1"
-    },
-    {
-      "ID": "1_1_3_1_1",
-      "categoryId": "1_1_3_1",
-      "name": "Conversion_1_1",
-      "price": 160
-    },
-    {
-      "ID": "1_1_4",
-      "categoryId": "1_1",
-      "name": "Revenue"
-    },
-    {
-      "ID": "1_1_4_1",
-      "categoryId": "1_1_4",
-      "name": "Revenue_1",
-      "price": 550
-    },
-    {
-      "ID": "1_1_4_2",
-      "categoryId": "1_1_4",
-      "name": "Revenue_2",
-      "price": 750
     }
   ],
   "metricsList": [
@@ -914,6 +839,24 @@
       "ID": "1_3",
       "categoryId": 1,
       "name": "Conversion",
+      "expanded": false
+    },
+    {
+      "ID": "1_4",
+      "categoryId": 1,
+      "name": "CTR",
+      "expanded": false
+    },
+    {
+      "ID": "1_5",
+      "categoryId": 1,
+      "name": "CPC",
+      "expanded": false
+    },
+    {
+      "ID": "1_3",
+      "categoryId": 1,
+      "name": "Impressions",
       "expanded": false
     },
     {
