@@ -34,36 +34,122 @@
   "comparisonPeriod": [
     {
       "id": "1",
-      "title": "year Over Year",
-      "name": "YOY",
+      "title": "None",
+      "name": "None",
       "checked": false
     },
     {
       "id": "2",
-      "title": "Month Over MOnth",
-      "name": "MOM",
-      "checked": false
-    }
-  ],
-
-  "dateRange": [
-    {
-      "id": "1",
-      "title": "Month",
-      "checked": false
-    },
-    {
-      "id": "2",
-      "title": "weekly",
+      "title": "Previous period of same length",
+      "name": "Previous period of same length",
       "checked": false
     },
     {
       "id": "3",
-      "title": "Last Week",
+      "title": "Same dates a year ago",
+      "name": "Same dates a year ago",
+      "checked": false
+    },
+    {
+      "id": "4",
+      "title": "Same dates a year ago,matching day of week",
+      "name": "Same dates a year ago,matching day of week",
+      "checked": false
+    },
+    {
+      "id": "5",
+      "title": "Custom Date Range",
+      "name": "Custom Date Range",
       "checked": false
     }
   ],
-
+  "dateRange": [
+    {
+      "id": "1",
+      "title": "Today",
+      "checked": false
+    },
+    {
+      "id": "2",
+      "title": "Yesterday",
+      "checked": false
+    },
+    {
+      "id": "3",
+      "title": "Last Week (Sun-Sat)",
+      "checked": false
+    },
+    {
+      "id": "4",
+      "title": "Last Week (Mon-Sun)",
+      "checked": false
+    },
+    {
+      "id": "5",
+      "title": "This month to date",
+      "checked": false
+    },
+    {
+      "id": "6",
+      "title": "This month to yesterday",
+      "checked": false
+    },
+    {
+      "id": "7",
+      "title": "Last Month",
+      "checked": false
+    },
+    {
+      "id": "8",
+      "title": "Year to date",
+      "checked": false
+    },
+    {
+      "id": "9",
+      "title": "Last Year",
+      "checked": false
+    },
+    {
+      "id": "10",
+      "title": "Last year and this year to date",
+      "checked": false
+    },
+    {
+      "id": "11",
+      "title": "Last X days",
+      "checked": false
+    },
+    {
+      "id": "12",
+      "title": "Last X weeks(Sun-Sat)",
+      "checked": false
+    },
+    {
+      "id": "13",
+      "title": "Last X Week (Mon-Sun)",
+      "checked": false
+    },
+    {
+      "id": "14",
+      "title": "Last X Months",
+      "checked": false
+    },
+    {
+      "id": "15",
+      "title": "Last Week (Sun-Sat)",
+      "checked": false
+    },
+    {
+      "id": "16",
+      "title": "Last X years",
+      "checked": false
+    },
+    {
+      "id": "17",
+      "title": "Custom date range",
+      "checked": false
+    }
+  ],
   "reportsTypeFilter": [
     {
       "id": "RPT_EXEC_OVERVIEW",
@@ -183,7 +269,7 @@
   "accountDetails": [
     {
       "accountId": 1,
-      "accountName": "Account 1",
+      "accountName": "Accolite",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -191,7 +277,7 @@
     },
     {
       "accountId": 2,
-      "accountName": "Account 2",
+      "accountName": "Microsoft",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -199,7 +285,7 @@
     },
     {
       "accountId": 3,
-      "accountName": "Account 3",
+      "accountName": "SAP",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -207,7 +293,7 @@
     },
     {
       "accountId": 4,
-      "accountName": "Account 4",
+      "accountName": "Esty",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -215,7 +301,7 @@
     },
     {
       "accountId": 5,
-      "accountName": "Account 5",
+      "accountName": "elf",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -223,7 +309,7 @@
     },
     {
       "accountId": 6,
-      "accountName": "Account 6",
+      "accountName": "Advil",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -231,7 +317,7 @@
     },
     {
       "accountId": 7,
-      "accountName": "Account 7",
+      "accountName": "Tommy Bahama",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -239,7 +325,7 @@
     },
     {
       "accountId": 8,
-      "accountName": "Account 8",
+      "accountName": "Nestle",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -247,7 +333,7 @@
     },
     {
       "accountId": 9,
-      "accountName": "Account 9",
+      "accountName": "Converse",
       "dataSet": 4,
       "activeReports": 2,
       "lastDataUpdate": "45 minutes ago",
@@ -347,7 +433,7 @@
       "Cols": 7,
       "reportName": "Executive Overview",
       "reportId": 1,
-      "tableName": "Weekly Overview",
+      "tableName": "Weekly Spend",
       "tableId": "1",
       "groupName": "CampaignType",
       "groupId": "1",
@@ -802,94 +888,19 @@
     {
       "ID": "1_1",
       "categoryId": 1,
-      "name": "Metrics",
+      "name": "Campaign Type",
       "expanded": true
     },
     {
-      "ID": "1_1_1",
-      "categoryId": "1_1",
-      "name": "Click"
+      "ID": "1_2",
+      "categoryId": "1",
+      "name": "Label"
     },
     {
-      "ID": "1_1_1_1",
-      "categoryId": "1_1_1",
-      "name": "Click_1",
-      "price": 220
-    },
-    {
-      "ID": "1_1_1_2",
-      "categoryId": "1_1_1",
-      "name": "Click_2",
-      "price": 270
-    },
-    {
-      "ID": "1_1_2",
-      "categoryId": "1_1",
-      "name": "Spend",
+      "ID": "1_3",
+      "categoryId": "1",
+      "name": "Group",
       "expanded": true
-    },
-    {
-      "ID": "1_1_2_1",
-      "categoryId": "1_1_2",
-      "name": "Spend_1",
-      "price": 150
-    },
-    {
-      "ID": "1_1_2_2",
-      "categoryId": "1_1_2",
-      "name": "Spend_2",
-      "price": 1450
-    },
-    {
-      "ID": "1_1_2_3",
-      "categoryId": "1_1_2",
-      "name": "Spend_3",
-      "price": 1600
-    },
-    {
-      "ID": "1_1_2_4",
-      "categoryId": "1_1_2",
-      "name": "Spend_4",
-      "price": 1750
-    },
-    {
-      "ID": "1_1_2_5",
-      "categoryId": "1_1_2",
-      "name": "Spend_5",
-      "price": 4000
-    },
-    {
-      "ID": "1_1_3",
-      "categoryId": "1_1",
-      "name": "Conversion"
-    },
-    {
-      "ID": "1_1_3_1",
-      "categoryId": "1_1_3",
-      "name": "Conversion_1"
-    },
-    {
-      "ID": "1_1_3_1_1",
-      "categoryId": "1_1_3_1",
-      "name": "Conversion_1_1",
-      "price": 160
-    },
-    {
-      "ID": "1_1_4",
-      "categoryId": "1_1",
-      "name": "Revenue"
-    },
-    {
-      "ID": "1_1_4_1",
-      "categoryId": "1_1_4",
-      "name": "Revenue_1",
-      "price": 550
-    },
-    {
-      "ID": "1_1_4_2",
-      "categoryId": "1_1_4",
-      "name": "Revenue_2",
-      "price": 750
     }
   ],
   "metricsList": [
@@ -914,6 +925,24 @@
       "ID": "1_3",
       "categoryId": 1,
       "name": "Conversion",
+      "expanded": false
+    },
+    {
+      "ID": "1_4",
+      "categoryId": 1,
+      "name": "CTR",
+      "expanded": false
+    },
+    {
+      "ID": "1_5",
+      "categoryId": 1,
+      "name": "CPC",
+      "expanded": false
+    },
+    {
+      "ID": "1_6",
+      "categoryId": 1,
+      "name": "Impressions",
       "expanded": false
     },
     {
