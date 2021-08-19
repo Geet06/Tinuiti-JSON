@@ -881,89 +881,89 @@
   ],
   "dimensionsList": [
     {
-      "ID": 1,
+      "dimensionId": 1,
       "name": "Catalogue",
       "expanded": true
     },
     {
-      "ID": "1_1",
-      "categoryId": 1,
+      "dimensionId": "1_1",
+      "dimensionCategoryId": 1,
       "name": "Campaign Type",
       "expanded": true
     },
     {
-      "ID": "1_2",
-      "categoryId": "1",
+      "dimensionId": "1_2",
+      "dimensionCategoryId": "1",
       "name": "Label"
     },
     {
-      "ID": "1_3",
-      "categoryId": "1",
+      "dimensionId": "1_3",
+      "dimensionCategoryId": "1",
       "name": "Group",
       "expanded": true
     }
   ],
   "metricsList": [
     {
-      "ID": 1,
+      "metricsId": 1,
       "name": "Catalogue",
       "expanded": true
     },
     {
-      "ID": "1_1",
-      "categoryId": 1,
+      "metricsId": "1_1",
+      "metricsCategoryId": 1,
       "name": "Clicks",
       "expanded": false
     },
     {
-      "ID": "1_2",
-      "categoryId": 1,
+      "metricsId": "1_2",
+      "metricsCategoryId": 1,
       "name": "Spend",
       "expanded": false
     },
     {
-      "ID": "1_3",
-      "categoryId": 1,
+      "metricsId": "1_3",
+      "metricsCategoryId": 1,
       "name": "Conversion",
       "expanded": false
     },
     {
-      "ID": "1_4",
-      "categoryId": 1,
+      "metricsId": "1_4",
+      "metricsCategoryId": 1,
       "name": "CTR",
       "expanded": false
     },
     {
-      "ID": "1_5",
-      "categoryId": 1,
+      "metricsId": "1_5",
+      "metricsCategoryId": 1,
       "name": "CPC",
       "expanded": false
     },
     {
-      "ID": "1_6",
-      "categoryId": 1,
+      "metricsId": "1_6",
+      "metricsCategoryId": 1,
       "name": "Impressions",
       "expanded": false
     },
     {
-      "ID": "2",
+      "metricsId": "2",
       "name": "Data Source",
       "expanded": false
     },
     {
-      "ID": "3",
+      "metricsId": "3",
       "name": "Dates",
       "expanded": false
     },
     {
-      "ID": "2_1",
-      "categoryId": 2,
+      "metricsId": "2_1",
+      "metricsCategoryId": 2,
       "name": "ROAS",
       "expanded": false
     },
     {
-      "ID": "3_1",
-      "categoryId": 3,
+      "metricsId": "3_1",
+      "metricsCategoryId": 3,
       "name": "Conv. Rate",
       "expanded": false
     }
