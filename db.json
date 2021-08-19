@@ -431,11 +431,10 @@
           "graphData": [
             { "key": "Click", "value": 10 },
             { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
+            { "key": "CTR", "value": 10 },
+            { "key": "Spend", "value": 20 },
+            { "key": "CPC", "value": 20 },
+            { "key": "Conversions", "value": 30 }
           ]
         },
         {
@@ -449,13 +448,12 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "value": 80 },
-            { "key": "Impression", "value": 5 },
-            { "key": "CTR", "value": 100 },
-            { "key": "Spend", "value": 20 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 60 },
-            { "key": "Graph", "value": 5 }
+            { "key": "Click", "value": 20 },
+            { "key": "Impression", "value": 15 },
+            { "key": "CTR", "value": 20 },
+            { "key": "Spend", "value": 10 },
+            { "key": "CPC", "value": 40 },
+            { "key": "Conversions", "value": 25 }
           ]
         },
         {
@@ -470,12 +468,11 @@
           "toolTipFormat": "",
           "graphData": [
             { "key": "Click", "value": 15 },
-            { "key": "Impression", "value": 80 },
-            { "key": "CTR", "value": 40 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 100 },
-            { "key": "Conversions", "value": 30 },
-            { "key": "Graph", "value": 5 }
+            { "key": "Impression", "value": 25 },
+            { "key": "CTR", "value": 10 },
+            { "key": "Spend", "value": 17 },
+            { "key": "CPC", "value": 20 },
+            { "key": "Conversions", "value": 20 }
           ]
         },
         {
@@ -489,13 +486,12 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
+            { "key": "Click", "value": 7 },
+            { "key": "Impression", "value": 18 },
+            { "key": "CTR", "value": 14 },
+            { "key": "Spend", "value": 15 },
+            { "key": "CPC", "value": 10 },
+            { "key": "Conversions", "value": 15 }
           ]
         },
         {
@@ -509,58 +505,66 @@
           "toolTipEnable": true,
           "toolTipFormat": "",
           "graphData": [
-            { "key": "Click", "value": 46 },
-            { "key": "Impression", "value": 30 },
-            { "key": "CTR", "value": 5 },
-            { "key": "Spend", "value": 90 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 20 },
-            { "key": "Graph", "value": 50 }
+            { "key": "Click", "value": 7 },
+            { "key": "Impression", "value": 18 },
+            { "key": "CTR", "value": 14 },
+            { "key": "Spend", "value": 15 },
+            { "key": "CPC", "value": 10 },
+            { "key": "Conversions", "value": 15 }
           ]
         }
       ]
     },
-	{
-		"VisualType": "Chart",
-		"chartType": "stackedBar",
-		"chartName": "Daily Revenue by Channel",
-		"chartId": "1",
-		"dimensions": [{
-		  "id": "1",
-		  "key": "google",
-		  "value": "Google"
-		}, {
-		  "id": "2",
-		  "key": "bing",
-		  "value": "Bing"
-		}, {
-		  "id": "3",
-		  "key": "facebook",
-		  "value": "Facebook"
-		}],
-		"metrics": [{
-		  "metric": "5/29/2021",
-		  "google": 5.3,
-		  "bing": 26,
-		  "facebook": 8
-		}, {
-		  "metric": "5/22/2021",
-		  "google": 6.45,
-		  "bing": 30.5,
-		  "facebook": 11.22
-		}, {
-		  "metric": "5/15/2021",
-		  "google": 12.56,
-		  "bing": 45.5,
-		  "facebook": 6.5
-		}, {
-		  "metric": "5/8/2021",
-		  "google": 32,
-		  "bing": 87,
-		  "facebook": 15
-		}]
-	  },
-	{
+    {
+      "VisualType": "Chart",
+      "chartType": "stackedBar",
+      "chartName": "Daily Revenue by Channel",
+      "chartId": "1",
+      "dimensions": [
+        {
+          "id": "1",
+          "key": "google",
+          "value": "Google"
+        },
+        {
+          "id": "2",
+          "key": "bing",
+          "value": "Bing"
+        },
+        {
+          "id": "3",
+          "key": "facebook",
+          "value": "Facebook"
+        }
+      ],
+      "metrics": [
+        {
+          "metric": "5/29/2021",
+          "google": 5.3,
+          "bing": 26,
+          "facebook": 8
+        },
+        {
+          "metric": "5/22/2021",
+          "google": 6.45,
+          "bing": 30.5,
+          "facebook": 11.22
+        },
+        {
+          "metric": "5/15/2021",
+          "google": 12.56,
+          "bing": 45.5,
+          "facebook": 6.5
+        },
+        {
+          "metric": "5/8/2021",
+          "google": 32,
+          "bing": 87,
+          "facebook": 15
+        }
+      ]
+    },
+    {
       "VisualType": "Table",
       "Rows": 5,
       "Cols": 7,
@@ -739,46 +743,55 @@
         }
       ]
     },
-	{
-		"VisualType": "Chart",
-		"chartType": "line",
-		"chartName": "Daily Revenue by Channel",
-		"chartId": "1",
-		"dimensions": [{
-		  "id": "1",
-		  "key": "google",
-		  "value": "Google"
-		}, {
-		  "id": "2",
-		  "key": "bing",
-		  "value": "Bing"
-		}, {
-		  "id": "3",
-		  "key": "facebook",
-		  "value": "Facebook"
-		}],
-		"metrics": [{
-		  "metric": "5/29/2021",
-		  "google": 5.3,
-		  "bing": 26,
-		  "facebook": 8
-		}, {
-		  "metric": "5/22/2021",
-		  "google": 6.45,
-		  "bing": 30.5,
-		  "facebook": 11.22
-		}, {
-		  "metric": "5/15/2021",
-		  "google": 12.56,
-		  "bing": 45.5,
-		  "facebook": 6.5
-		}, {
-		  "metric": "5/8/2021",
-		  "google": 32,
-		  "bing": 87,
-		  "facebook": 15
-		}]
-	  }
+    {
+      "VisualType": "Chart",
+      "chartType": "line",
+      "chartName": "Daily Revenue by Channel",
+      "chartId": "1",
+      "dimensions": [
+        {
+          "id": "1",
+          "key": "google",
+          "value": "Google"
+        },
+        {
+          "id": "2",
+          "key": "bing",
+          "value": "Bing"
+        },
+        {
+          "id": "3",
+          "key": "facebook",
+          "value": "Facebook"
+        }
+      ],
+      "metrics": [
+        {
+          "metric": "5/29/2021",
+          "google": 5.3,
+          "bing": 26,
+          "facebook": 8
+        },
+        {
+          "metric": "5/22/2021",
+          "google": 6.45,
+          "bing": 30.5,
+          "facebook": 11.22
+        },
+        {
+          "metric": "5/15/2021",
+          "google": 12.56,
+          "bing": 45.5,
+          "facebook": 6.5
+        },
+        {
+          "metric": "5/8/2021",
+          "google": 32,
+          "bing": 87,
+          "facebook": 15
+        }
+      ]
+    }
   ],
   "dimensionsList": [
     {
@@ -877,6 +890,53 @@
       "categoryId": "1_1_4",
       "name": "Revenue_2",
       "price": 750
+    }
+  ],
+  "metricsList": [
+    {
+      "ID": 1,
+      "name": "Catalogue",
+      "expanded": true
+    },
+    {
+      "ID": "1_1",
+      "categoryId": 1,
+      "name": "Clicks",
+      "expanded": false
+    },
+    {
+      "ID": "1_2",
+      "categoryId": 1,
+      "name": "Spend",
+      "expanded": false
+    },
+    {
+      "ID": "1_3",
+      "categoryId": 1,
+      "name": "Conversion",
+      "expanded": false
+    },
+    {
+      "ID": "2",
+      "name": "Data Source",
+      "expanded": false
+    },
+    {
+      "ID": "3",
+      "name": "Dates",
+      "expanded": false
+    },
+    {
+      "ID": "2_1",
+      "categoryId": 2,
+      "name": "ROAS",
+      "expanded": false
+    },
+    {
+      "ID": "3_1",
+      "categoryId": 3,
+      "name": "Conv. Rate",
+      "expanded": false
     }
   ]
 }
