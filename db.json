@@ -34,146 +34,168 @@
   "comparisonPeriod": [
     {
       "id": "1",
-      "title": "None",
-      "name": "None",
+      "label": "None",
+      "value": "None",
       "checked": false
     },
     {
       "id": "2",
-      "title": "Previous period of same length",
-      "name": "Previous period of same length",
+      "label": "Previous period of same length",
+      "value": "Previous period of same length",
       "checked": false
     },
     {
       "id": "3",
-      "title": "Same dates a year ago",
-      "name": "Same dates a year ago",
+      "label": "Same dates a year ago",
+      "value": "Same dates a year ago",
       "checked": false
     },
     {
       "id": "4",
-      "title": "Same dates a year ago,matching day of week",
-      "name": "Same dates a year ago,matching day of week",
+      "label": "Same dates a year ago,matching day of week",
+      "value": "Same dates a year ago,matching day of week",
       "checked": false
     },
     {
       "id": "5",
-      "title": "Custom Date Range",
-      "name": "Custom Date Range",
+      "label": "Custom Date Range",
+      "value": "Custom Date Range",
       "checked": false
     }
   ],
   "dateRange": [
     {
       "id": "1",
-      "title": "Today",
+      "label": "Today",
+      "value": "today",
       "checked": false
     },
     {
       "id": "2",
-      "title": "Yesterday",
+      "label": "Yesterday",
+      "value": "yesterday",
       "checked": false
     },
     {
       "id": "3",
-      "title": "Last Week (Sun-Sat)",
+      "label": "Last Week (Sun-Sat)",
+      "value": "lastWeekSS",
       "checked": false
     },
     {
       "id": "4",
-      "title": "Last Week (Mon-Sun)",
+      "label": "Last Week (Mon-Sun)",
+      "value": "lastWeekMS",
       "checked": false
     },
     {
       "id": "5",
-      "title": "This month to date",
+      "label": "This month to date",
+      "value": "thisMonthToDate",
       "checked": false
     },
     {
       "id": "6",
-      "title": "This month to yesterday",
+      "label": "This month to yesterday",
+      "value": "thisMonthToYesterday",
       "checked": false
     },
     {
       "id": "7",
-      "title": "Last Month",
+      "label": "Last Month",
+      "value": "lastMonth",
       "checked": false
     },
     {
       "id": "8",
-      "title": "Year to date",
+      "label": "Year to date",
+      "value": "yearToDate",
       "checked": false
     },
     {
       "id": "9",
-      "title": "Last Year",
+      "label": "Last Year",
+      "value": "lastYear",
       "checked": false
     },
     {
       "id": "10",
-      "title": "Last year and this year to date",
+      "label": "Last year and this year to date",
+      "value": "lastYearThisYearToDate",
       "checked": false
     },
     {
       "id": "11",
-      "title": "Last X days",
+      "label": "Last X days",
+      "value": "lastXDays",
       "checked": false
     },
     {
       "id": "12",
-      "title": "Last X weeks(Sun-Sat)",
+      "label": "Last X weeks(Sun-Sat)",
+      "value": "lastXWeekSS",
       "checked": false
     },
     {
       "id": "13",
-      "title": "Last X Week (Mon-Sun)",
+      "label": "Last X Week (Mon-Sun)",
+      "value": "lastXWeekMS",
       "checked": false
     },
     {
       "id": "14",
-      "title": "Last X Months",
+      "label": "Last X Months",
+      "value": "lastXMonth",
       "checked": false
     },
     {
       "id": "15",
-      "title": "Last Week (Sun-Sat)",
+      "label": "Last Week (Sun-Sat)",
+      "value": "lastWeekSS",
       "checked": false
     },
     {
       "id": "16",
-      "title": "Last X years",
+      "label": "Last X years",
+      "value": "lastXYears",
       "checked": false
     },
     {
       "id": "17",
-      "title": "Custom date range",
+      "label": "Custom date range",
+      "value": "customeDateRange",
       "checked": false
     }
   ],
   "reportsTypeFilter": [
     {
-      "id": "RPT_EXEC_OVERVIEW",
-      "title": "Executive Overview",
+      "id": "1",
+      "value": "executiveOverview",
+      "label": "Executive Overview",
       "checked": false
     },
     {
-      "id": "RPT_DAILY_OVERVIEW",
-      "title": "Daily Overview",
+      "id": "2",
+      "value": "dailyOverview",
+      "label": "Daily Overview",
       "checked": false
     },
     {
-      "id": "RPT_WEEKLY_OVERVIEW",
-      "title": "Weekly Overview",
+      "id": "3",
+      "value": "weeklyOverview",
+      "label": "Weekly Overview",
       "checked": false
     },
     {
-      "id": "RPT_SOCIAL_BREAKDOWN",
-      "title": "Social Breakdown",
+      "id": "4",
+      "value": "socialBreakdown",
+      "label": "Social Breakdown",
       "checked": false
     },
     {
-      "id": "RPT_SOCIAL_CREATIVE",
-      "title": "Social Creative",
+      "id": "5",
+      "value": "socialCreative",
+      "label": "Social Creative",
       "checked": false
     }
   ],
@@ -426,84 +448,920 @@
       ]
     }
   ],
-  "reportsTable": [
+  "reportsTable": {
+    "reportLabel": "ExecutiveOverview",
+    "reportValue": "executiveOverview",
+    "reportId": 1,
+    "elements": [
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Daily Overview",
+        "reportId": 1,
+        "tableName": "Daily Paid Totals",
+        "tableId": "1",
+        "groupName": "CampaignType",
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Daily Paid Totals",
+            "id": "0",
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "Graph",
+            "id": "7",
+            "CanSort": false,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          }
+        ],
+        "dimensions": [
+          {
+            "Daily Paid Totals": "8/18/2021",
+            "click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 10 },
+              { "key": "Spend", "value": 20 },
+              { "key": "CPC", "value": 20 },
+              { "key": "Conversions", "value": 30 }
+            ]
+          },
+          {
+            "Daily Paid Totals": "8/17/2021",
+            "click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "25",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 20 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 20 },
+              { "key": "Spend", "value": 10 },
+              { "key": "CPC", "value": 40 },
+              { "key": "Conversions", "value": 25 }
+            ]
+          },
+          {
+            "Daily Paid Totals": "8/16/2021",
+            "click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "20",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 15 },
+              { "key": "Impression", "value": 25 },
+              { "key": "CTR", "value": 10 },
+              { "key": "Spend", "value": 17 },
+              { "key": "CPC", "value": 20 },
+              { "key": "Conversions", "value": 20 }
+            ]
+          },
+          {
+            "Daily Paid Totals": "8/15/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 7 },
+              { "key": "Impression", "value": 18 },
+              { "key": "CTR", "value": 14 },
+              { "key": "Spend", "value": 15 },
+              { "key": "CPC", "value": 10 },
+              { "key": "Conversions", "value": 15 }
+            ]
+          },
+          {
+            "Daily Paid Totals": "8/13/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 7 },
+              { "key": "Impression", "value": 18 },
+              { "key": "CTR", "value": 14 },
+              { "key": "Spend", "value": 15 },
+              { "key": "CPC", "value": 10 },
+              { "key": "Conversions", "value": 15 }
+            ]
+          }
+        ]
+      },
+      {
+        "VisualType": "Chart",
+        "chartType": "stackedBar",
+        "tableName": "Daily Revenue by Channel",
+        "chartName": "Daily Revenue by Channel",
+        "chartId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "key": "google",
+            "value": "Google"
+          },
+          {
+            "id": "2",
+            "key": "bing",
+            "value": "Bing"
+          },
+          {
+            "id": "3",
+            "key": "facebook",
+            "value": "Facebook"
+          }
+        ],
+        "metrics": [
+          {
+            "metric": "5/29/2021",
+            "google": 5.3,
+            "bing": 26,
+            "facebook": 8
+          },
+          {
+            "metric": "5/22/2021",
+            "google": 6.45,
+            "bing": 30.5,
+            "facebook": 11.22
+          },
+          {
+            "metric": "5/15/2021",
+            "google": 12.56,
+            "bing": 45.5,
+            "facebook": 6.5
+          },
+          {
+            "metric": "5/8/2021",
+            "google": 32,
+            "bing": 87,
+            "facebook": 15
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "",
+        "reportId": 1,
+        "tableName": "Google",
+        "tableId": "2",
+        "groupName": "CampaignType",
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Google",
+            "id": "0",
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "Graph",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          }
+        ],
+        "dimensions": [
+          {
+            "Google": "8/18/2021",
+            "click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Google": "8/17/2021",
+            "click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "25",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 80 },
+              { "key": "Impression", "value": 5 },
+              { "key": "CTR", "value": 100 },
+              { "key": "Spend", "value": 20 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 60 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Google": "8/16/2021",
+            "click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "20",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 15 },
+              { "key": "Impression", "value": 80 },
+              { "key": "CTR", "value": 40 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 100 },
+              { "key": "Conversions", "value": 30 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Google": "8/15/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Google": "8/14/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 46 },
+              { "key": "Impression", "value": 30 },
+              { "key": "CTR", "value": 5 },
+              { "key": "Spend", "value": 90 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 20 },
+              { "key": "Graph", "value": 50 }
+            ]
+          }
+        ]
+      },
+      {
+        "VisualType": "Chart",
+        "chartType": "line",
+        "tableName": "Daily Revenue by Channel",
+        "chartName": "Daily Revenue by Channel",
+        "chartId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "key": "google",
+            "value": "Google"
+          },
+          {
+            "id": "2",
+            "key": "bing",
+            "value": "Bing"
+          },
+          {
+            "id": "3",
+            "key": "facebook",
+            "value": "Facebook"
+          }
+        ],
+        "metrics": [
+          {
+            "metric": "5/29/2021",
+            "google": 5.3,
+            "bing": 26,
+            "facebook": 8
+          },
+          {
+            "metric": "5/22/2021",
+            "google": 6.45,
+            "bing": 30.5,
+            "facebook": 11.22
+          },
+          {
+            "metric": "5/15/2021",
+            "google": 12.56,
+            "bing": 45.5,
+            "facebook": 6.5
+          },
+          {
+            "metric": "5/8/2021",
+            "google": 32,
+            "bing": 87,
+            "facebook": 15
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "",
+        "reportId": 1,
+        "tableName": "Bing",
+        "tableId": "3",
+        "groupName": "CampaignType",
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Bing",
+            "id": "0",
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "Graph",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          }
+        ],
+        "dimensions": [
+          {
+            "Bing": "8/18/2021",
+            "click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Bing": "8/17/2021",
+            "click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "25",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 80 },
+              { "key": "Impression", "value": 5 },
+              { "key": "CTR", "value": 100 },
+              { "key": "Spend", "value": 20 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 60 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Bing": "8/16/2021",
+            "click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "20",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 15 },
+              { "key": "Impression", "value": 80 },
+              { "key": "CTR", "value": 40 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 100 },
+              { "key": "Conversions", "value": 30 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Bing": "8/15/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Bing": "8/14/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 46 },
+              { "key": "Impression", "value": 30 },
+              { "key": "CTR", "value": 5 },
+              { "key": "Spend", "value": 90 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 20 },
+              { "key": "Graph", "value": 50 }
+            ]
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "",
+        "reportId": 1,
+        "tableName": "Facebook",
+        "tableId": "4",
+        "groupName": "CampaignType",
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Facebook",
+            "id": "0",
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "Graph",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          }
+        ],
+        "dimensions": [
+          {
+            "Facebook": "8/18/2021",
+            "click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Facebook": "8/17/2021",
+            "click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "25",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 80 },
+              { "key": "Impression", "value": 5 },
+              { "key": "CTR", "value": 100 },
+              { "key": "Spend", "value": 20 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 60 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Facebook": "8/16/2021",
+            "click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "20",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 15 },
+              { "key": "Impression", "value": 80 },
+              { "key": "CTR", "value": 40 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 100 },
+              { "key": "Conversions", "value": 30 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Facebook": "8/15/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 10 },
+              { "key": "Impression", "value": 15 },
+              { "key": "CTR", "value": 50 },
+              { "key": "Spend", "value": 2 },
+              { "key": "CPC", "value": 80 },
+              { "key": "Conversions", "value": 89 },
+              { "key": "Graph", "value": 5 }
+            ]
+          },
+          {
+            "Facebook": "8/14/2021",
+            "click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "15",
+            "toolTipEnable": true,
+            "toolTipFormat": "",
+            "graphData": [
+              { "key": "Click", "value": 46 },
+              { "key": "Impression", "value": 30 },
+              { "key": "CTR", "value": 5 },
+              { "key": "Spend", "value": 90 },
+              { "key": "CPC", "value": 8 },
+              { "key": "Conversions", "value": 20 },
+              { "key": "Graph", "value": 50 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dimensionsList": [
     {
-      "VisualType": "Table",
-      "Rows": 5,
-      "Cols": 7,
+      "dimensionId": 1,
+      "name": "Catalogue",
+      "expanded": true
+    },
+    {
+      "dimensionId": "1_1",
+      "dimensionCategoryId": 1,
+      "name": "Campaign Type",
+      "expanded": true
+    },
+    {
+      "dimensionId": "1_2",
+      "dimensionCategoryId": "1",
+      "name": "Label"
+    },
+    {
+      "dimensionId": "1_3",
+      "dimensionCategoryId": "1",
+      "name": "Group",
+      "expanded": true
+    }
+  ],
+  "metricsList": [
+    {
+      "metricsId": 1,
+      "name": "Catalogue",
+      "expanded": true
+    },
+    {
+      "metricsId": "1_1",
+      "metricsCategoryId": 1,
+      "name": "Clicks",
+      "expanded": false
+    },
+    {
+      "metricsId": "1_2",
+      "metricsCategoryId": 1,
+      "name": "Spend",
+      "expanded": false
+    },
+    {
+      "metricsId": "1_3",
+      "metricsCategoryId": 1,
+      "name": "Conversion",
+      "expanded": false
+    },
+    {
+      "metricsId": "1_4",
+      "metricsCategoryId": 1,
+      "name": "CTR",
+      "expanded": false
+    },
+    {
+      "metricsId": "1_5",
+      "metricsCategoryId": 1,
+      "name": "CPC",
+      "expanded": false
+    },
+    {
+      "metricsId": "1_6",
+      "metricsCategoryId": 1,
+      "name": "Impressions",
+      "expanded": false
+    },
+    {
+      "metricsId": "2",
+      "name": "Data Source",
+      "expanded": false
+    },
+    {
+      "metricsId": "3",
+      "name": "Dates",
+      "expanded": false
+    },
+    {
+      "metricsId": "2_1",
+      "metricsCategoryId": 2,
+      "name": "ROAS",
+      "expanded": false
+    },
+    {
+      "metricsId": "3_1",
+      "metricsCategoryId": 3,
+      "name": "Conv. Rate",
+      "expanded": false
+    }
+  ],
+  "dimensionData": [
+    {
       "reportName": "Daily Overview",
       "reportId": 1,
       "tableName": "Daily Paid Totals",
       "tableId": "1",
-      "groupName": "CampaignType",
-      "groupId": "1",
-      "metrics": [
-        {
-          "name": "Daily Paid Totals",
-          "id": "0",
-          "CanSort": false,
-          "CanHide": "",
-          "CanResize": "",
-          "CanFilter": true
-        },
-        {
-          "name": "click",
-          "id": "1",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Impression",
-          "id": "2",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CTR",
-          "id": "3",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Spend",
-          "id": "4",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CPC",
-          "id": "5",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Conversions",
-          "id": "6",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        },
-        {
-          "name": "Graph",
-          "id": "7",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        }
-      ],
-      "dimensions": [
+      "data": [
         {
           "Daily Paid Totals": "8/18/2021",
           "click": "10",
@@ -602,63 +1460,13 @@
       ]
     },
     {
-      "VisualType": "Chart",
-      "chartType": "stackedBar",
-      "tableName": "Daily Revenue by Channel",
-      "chartName": "Daily Revenue by Channel",
-      "chartId": "1",
-      "dimensions": [
-        {
-          "id": "1",
-          "key": "google",
-          "value": "Google"
-        },
-        {
-          "id": "2",
-          "key": "bing",
-          "value": "Bing"
-        },
-        {
-          "id": "3",
-          "key": "facebook",
-          "value": "Facebook"
-        }
-      ],
-      "metrics": [
-        {
-          "metric": "5/29/2021",
-          "google": 5.3,
-          "bing": 26,
-          "facebook": 8
-        },
-        {
-          "metric": "5/22/2021",
-          "google": 6.45,
-          "bing": 30.5,
-          "facebook": 11.22
-        },
-        {
-          "metric": "5/15/2021",
-          "google": 12.56,
-          "bing": 45.5,
-          "facebook": 6.5
-        },
-        {
-          "metric": "5/8/2021",
-          "google": 32,
-          "bing": 87,
-          "facebook": 15
-        }
-      ]
-    },
-    {
       "VisualType": "Table",
       "Rows": 5,
       "Cols": 7,
       "reportName": "",
       "reportId": 1,
       "tableName": "Google",
-      "tableId": "1",
+      "tableId": "2",
       "groupName": "CampaignType",
       "groupId": "1",
       "metrics": [
@@ -829,503 +1637,6 @@
           ]
         }
       ]
-    },
-    {
-      "VisualType": "Chart",
-      "chartType": "line",
-      "tableName": "Daily Revenue by Channel",
-      "chartName": "Daily Revenue by Channel",
-      "chartId": "1",
-      "dimensions": [
-        {
-          "id": "1",
-          "key": "google",
-          "value": "Google"
-        },
-        {
-          "id": "2",
-          "key": "bing",
-          "value": "Bing"
-        },
-        {
-          "id": "3",
-          "key": "facebook",
-          "value": "Facebook"
-        }
-      ],
-      "metrics": [
-        {
-          "metric": "5/29/2021",
-          "google": 5.3,
-          "bing": 26,
-          "facebook": 8
-        },
-        {
-          "metric": "5/22/2021",
-          "google": 6.45,
-          "bing": 30.5,
-          "facebook": 11.22
-        },
-        {
-          "metric": "5/15/2021",
-          "google": 12.56,
-          "bing": 45.5,
-          "facebook": 6.5
-        },
-        {
-          "metric": "5/8/2021",
-          "google": 32,
-          "bing": 87,
-          "facebook": 15
-        }
-      ]
-    },
-    {
-      "VisualType": "Table",
-      "Rows": 5,
-      "Cols": 7,
-      "reportName": "",
-      "reportId": 1,
-      "tableName": "Bing",
-      "tableId": "1",
-      "groupName": "CampaignType",
-      "groupId": "1",
-      "metrics": [
-        {
-          "name": "Bing",
-          "id": "0",
-          "CanSort": false,
-          "CanHide": "",
-          "CanResize": "",
-          "CanFilter": true
-        },
-        {
-          "name": "click",
-          "id": "1",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Impression",
-          "id": "2",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CTR",
-          "id": "3",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Spend",
-          "id": "4",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CPC",
-          "id": "5",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Conversions",
-          "id": "6",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        },
-        {
-          "name": "Graph",
-          "id": "7",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        }
-      ],
-      "dimensions": [
-        {
-          "Bing": "8/18/2021",
-          "click": "10",
-          "Impression": "15",
-          "CTR": "10",
-          "Spend": "20",
-          "CPC": "20",
-          "Conversions": "30",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Bing": "8/17/2021",
-          "click": "20",
-          "Impression": "15",
-          "CTR": "20",
-          "Spend": "10",
-          "CPC": "40",
-          "Conversions": "25",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 80 },
-            { "key": "Impression", "value": 5 },
-            { "key": "CTR", "value": 100 },
-            { "key": "Spend", "value": 20 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 60 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Bing": "8/16/2021",
-          "click": "15",
-          "Impression": "25",
-          "CTR": "10",
-          "Spend": "17",
-          "CPC": "20",
-          "Conversions": "20",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 15 },
-            { "key": "Impression", "value": 80 },
-            { "key": "CTR", "value": 40 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 100 },
-            { "key": "Conversions", "value": 30 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Bing": "8/15/2021",
-          "click": "7",
-          "Impression": "18",
-          "CTR": "14",
-          "Spend": "15",
-          "CPC": "10",
-          "Conversions": "15",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Bing": "8/14/2021",
-          "click": "7",
-          "Impression": "18",
-          "CTR": "14",
-          "Spend": "15",
-          "CPC": "10",
-          "Conversions": "15",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 46 },
-            { "key": "Impression", "value": 30 },
-            { "key": "CTR", "value": 5 },
-            { "key": "Spend", "value": 90 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 20 },
-            { "key": "Graph", "value": 50 }
-          ]
-        }
-      ]
-    },
-    {
-      "VisualType": "Table",
-      "Rows": 5,
-      "Cols": 7,
-      "reportName": "",
-      "reportId": 1,
-      "tableName": "Facebook",
-      "tableId": "1",
-      "groupName": "CampaignType",
-      "groupId": "1",
-      "metrics": [
-        {
-          "name": "Facebook",
-          "id": "0",
-          "CanSort": false,
-          "CanHide": "",
-          "CanResize": "",
-          "CanFilter": true
-        },
-        {
-          "name": "click",
-          "id": "1",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Impression",
-          "id": "2",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CTR",
-          "id": "3",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Spend",
-          "id": "4",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "CPC",
-          "id": "5",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": true
-        },
-        {
-          "name": "Conversions",
-          "id": "6",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        },
-        {
-          "name": "Graph",
-          "id": "7",
-          "CanSort": true,
-          "CanResize": "",
-          "CanHide": "",
-          "CanFilter": false
-        }
-      ],
-      "dimensions": [
-        {
-          "Facebook": "8/18/2021",
-          "click": "10",
-          "Impression": "15",
-          "CTR": "10",
-          "Spend": "20",
-          "CPC": "20",
-          "Conversions": "30",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Facebook": "8/17/2021",
-          "click": "20",
-          "Impression": "15",
-          "CTR": "20",
-          "Spend": "10",
-          "CPC": "40",
-          "Conversions": "25",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 80 },
-            { "key": "Impression", "value": 5 },
-            { "key": "CTR", "value": 100 },
-            { "key": "Spend", "value": 20 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 60 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Facebook": "8/16/2021",
-          "click": "15",
-          "Impression": "25",
-          "CTR": "10",
-          "Spend": "17",
-          "CPC": "20",
-          "Conversions": "20",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 15 },
-            { "key": "Impression", "value": 80 },
-            { "key": "CTR", "value": 40 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 100 },
-            { "key": "Conversions", "value": 30 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Facebook": "8/15/2021",
-          "click": "7",
-          "Impression": "18",
-          "CTR": "14",
-          "Spend": "15",
-          "CPC": "10",
-          "Conversions": "15",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 10 },
-            { "key": "Impression", "value": 15 },
-            { "key": "CTR", "value": 50 },
-            { "key": "Spend", "value": 2 },
-            { "key": "CPC", "value": 80 },
-            { "key": "Conversions", "value": 89 },
-            { "key": "Graph", "value": 5 }
-          ]
-        },
-        {
-          "Facebook": "8/14/2021",
-          "click": "7",
-          "Impression": "18",
-          "CTR": "14",
-          "Spend": "15",
-          "CPC": "10",
-          "Conversions": "15",
-          "toolTipEnable": true,
-          "toolTipFormat": "",
-          "graphData": [
-            { "key": "Click", "value": 46 },
-            { "key": "Impression", "value": 30 },
-            { "key": "CTR", "value": 5 },
-            { "key": "Spend", "value": 90 },
-            { "key": "CPC", "value": 8 },
-            { "key": "Conversions", "value": 20 },
-            { "key": "Graph", "value": 50 }
-          ]
-        }
-      ]
-    }
-  ],
-  "dimensionsList": [
-    {
-      "dimensionId": 1,
-      "name": "Catalogue",
-      "expanded": true
-    },
-    {
-      "dimensionId": "1_1",
-      "dimensionCategoryId": 1,
-      "name": "Campaign Type",
-      "expanded": true
-    },
-    {
-      "dimensionId": "1_2",
-      "dimensionCategoryId": "1",
-      "name": "Label"
-    },
-    {
-      "dimensionId": "1_3",
-      "dimensionCategoryId": "1",
-      "name": "Group",
-      "expanded": true
-    }
-  ],
-  "metricsList": [
-    {
-      "metricsId": 1,
-      "name": "Catalogue",
-      "expanded": true
-    },
-    {
-      "metricsId": "1_1",
-      "metricsCategoryId": 1,
-      "name": "Clicks",
-      "expanded": false
-    },
-    {
-      "metricsId": "1_2",
-      "metricsCategoryId": 1,
-      "name": "Spend",
-      "expanded": false
-    },
-    {
-      "metricsId": "1_3",
-      "metricsCategoryId": 1,
-      "name": "Conversion",
-      "expanded": false
-    },
-    {
-      "metricsId": "1_4",
-      "metricsCategoryId": 1,
-      "name": "CTR",
-      "expanded": false
-    },
-    {
-      "metricsId": "1_5",
-      "metricsCategoryId": 1,
-      "name": "CPC",
-      "expanded": false
-    },
-    {
-      "metricsId": "1_6",
-      "metricsCategoryId": 1,
-      "name": "Impressions",
-      "expanded": false
-    },
-    {
-      "metricsId": "2",
-      "name": "Data Source",
-      "expanded": false
-    },
-    {
-      "metricsId": "3",
-      "name": "Dates",
-      "expanded": false
-    },
-    {
-      "metricsId": "2_1",
-      "metricsCategoryId": 2,
-      "name": "ROAS",
-      "expanded": false
-    },
-    {
-      "metricsId": "3_1",
-      "metricsCategoryId": 3,
-      "name": "Conv. Rate",
-      "expanded": false
     }
   ]
 }
