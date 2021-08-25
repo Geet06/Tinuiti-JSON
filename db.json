@@ -34,146 +34,168 @@
   "comparisonPeriod": [
     {
       "id": "1",
-      "title": "None",
-      "name": "None",
+      "label": "None",
+      "value": "None",
       "checked": false
     },
     {
       "id": "2",
-      "title": "Previous period of same length",
-      "name": "Previous period of same length",
+      "label": "Previous period of same length",
+      "value": "Previous period of same length",
       "checked": false
     },
     {
       "id": "3",
-      "title": "Same dates a year ago",
-      "name": "Same dates a year ago",
+      "label": "Same dates a year ago",
+      "value": "Same dates a year ago",
       "checked": false
     },
     {
       "id": "4",
-      "title": "Same dates a year ago,matching day of week",
-      "name": "Same dates a year ago,matching day of week",
+      "label": "Same dates a year ago,matching day of week",
+      "value": "Same dates a year ago,matching day of week",
       "checked": false
     },
     {
       "id": "5",
-      "title": "Custom Date Range",
-      "name": "Custom Date Range",
+      "label": "Custom Date Range",
+      "value": "Custom Date Range",
       "checked": false
     }
   ],
   "dateRange": [
     {
       "id": "1",
-      "title": "Today",
+      "label": "Today",
+      "value": "today",
       "checked": false
     },
     {
       "id": "2",
-      "title": "Yesterday",
+      "label": "Yesterday",
+      "value": "yesterday",
       "checked": false
     },
     {
       "id": "3",
-      "title": "Last Week (Sun-Sat)",
+      "label": "Last Week (Sun-Sat)",
+      "value": "lastWeekSS",
       "checked": false
     },
     {
       "id": "4",
-      "title": "Last Week (Mon-Sun)",
+      "label": "Last Week (Mon-Sun)",
+      "value": "lastWeekMS",
       "checked": false
     },
     {
       "id": "5",
-      "title": "This month to date",
+      "label": "This month to date",
+      "value": "thisMonthToDate",
       "checked": false
     },
     {
       "id": "6",
-      "title": "This month to yesterday",
+      "label": "This month to yesterday",
+      "value": "thisMonthToYesterday",
       "checked": false
     },
     {
       "id": "7",
-      "title": "Last Month",
+      "label": "Last Month",
+      "value": "lastMonth",
       "checked": false
     },
     {
       "id": "8",
-      "title": "Year to date",
+      "label": "Year to date",
+      "value": "yearToDate",
       "checked": false
     },
     {
       "id": "9",
-      "title": "Last Year",
+      "label": "Last Year",
+      "value": "lastYear",
       "checked": false
     },
     {
       "id": "10",
-      "title": "Last year and this year to date",
+      "label": "Last year and this year to date",
+      "value": "lastYearThisYearToDate",
       "checked": false
     },
     {
       "id": "11",
-      "title": "Last X days",
+      "label": "Last X days",
+      "value": "lastXDays",
       "checked": false
     },
     {
       "id": "12",
-      "title": "Last X weeks(Sun-Sat)",
+      "label": "Last X weeks(Sun-Sat)",
+      "value": "lastXWeekSS",
       "checked": false
     },
     {
       "id": "13",
-      "title": "Last X Week (Mon-Sun)",
+      "label": "Last X Week (Mon-Sun)",
+      "value": "lastXWeekMS",
       "checked": false
     },
     {
       "id": "14",
-      "title": "Last X Months",
+      "label": "Last X Months",
+      "value": "lastXMonth",
       "checked": false
     },
     {
       "id": "15",
-      "title": "Last Week (Sun-Sat)",
+      "label": "Last Week (Sun-Sat)",
+      "value": "lastWeekSS",
       "checked": false
     },
     {
       "id": "16",
-      "title": "Last X years",
+      "label": "Last X years",
+      "value": "lastXYears",
       "checked": false
     },
     {
       "id": "17",
-      "title": "Custom date range",
+      "label": "Custom date range",
+      "value": "customeDateRange",
       "checked": false
     }
   ],
   "reportsTypeFilter": [
     {
-      "id": "RPT_EXEC_OVERVIEW",
-      "title": "Executive Overview",
+      "id": "1",
+      "value": "executiveOverview",
+      "label": "Executive Overview",
       "checked": false
     },
     {
-      "id": "RPT_DAILY_OVERVIEW",
-      "title": "Daily Overview",
+      "id": "2",
+      "value": "dailyOverview",
+      "label": "Daily Overview",
       "checked": false
     },
     {
-      "id": "RPT_WEEKLY_OVERVIEW",
-      "title": "Weekly Overview",
+      "id": "3",
+      "value": "weeklyOverview",
+      "label": "Weekly Overview",
       "checked": false
     },
     {
-      "id": "RPT_SOCIAL_BREAKDOWN",
-      "title": "Social Breakdown",
+      "id": "4",
+      "value": "socialBreakdown",
+      "label": "Social Breakdown",
       "checked": false
     },
     {
-      "id": "RPT_SOCIAL_CREATIVE",
-      "title": "Social Creative",
+      "id": "5",
+      "value": "socialCreative",
+      "label": "Social Creative",
       "checked": false
     }
   ],
@@ -1614,7 +1636,7 @@
         "reportName": "",
         "reportId": 1,
         "tableName": "Bing",
-        "tableId": "1",
+        "tableId": "3",
         "groupName": "CampaignType",
         "groupId": "1",
         "metrics": [
