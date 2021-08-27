@@ -1553,5 +1553,533 @@
         }
       ]
     }
-  ]
+  ],
+  "executiveOverviewHeader": {
+    "reportValue": "EXECUTIVE_OVERVIEW_REPORT",
+    "reportLabel": "Executive overview",
+    "reportId": 2,
+    "elements": [
+      {
+        "VisualType": "Table",
+        "Rows": 4,
+        "Cols": 4,
+        "reportName": "Executive Overview",
+        "reportId": 2,
+        "tableName": "Paid Channels",
+        "showHeaders": false,
+        "metrics": [
+          {
+            "name": "Column1",
+            "id": 0,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column1Values",
+            "id": 2,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column2",
+            "id": 3,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column2Values",
+            "id": 0,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "Column1": "Clicks",
+            "Column1Values": 0,
+            "Column2": "Avg. CPC",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "Spend",
+            "Column1Values": "$0",
+            "Column2": "ROAS",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "Conversions",
+            "Column1Values": 0,
+            "Column2": "ConversionRate",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "Revenue",
+            "Column1Values": "$0",
+            "Column2": "AOV",
+            "Column2Values": "-"
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 4,
+        "Cols": 4,
+        "reportName": "Executive Overview",
+        "reportId": 2,
+        "tableName": "Sitewide Analytics",
+        "showHeaders": false,
+        "metrics": [
+          {
+            "name": "Column1",
+            "id": 0,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column1Values",
+            "id": 2,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column2",
+            "id": 3,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Column2Values",
+            "id": 0,
+            "CanSort": false,
+            "CanHide": "",
+            "CanResize": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "Column1": "Users",
+            "Column1Values": 0,
+            "Column2": "Cost / Visit",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "New User %",
+            "Column1Values": "-",
+            "Column2": "Site ROAS",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "Orders",
+            "Column1Values": 0,
+            "Column2": "Site CVR",
+            "Column2Values": "-"
+          },
+          {
+            "Column1": "Rev",
+            "Column1Values": "$0.00",
+            "Column2": "Site AOV",
+            "Column2Values": "-"
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Executive Overview",
+        "reportId": 1,
+        "tableName": "",
+        "tableId": "1",
+        "groupName": "",
+        "showHeaders": true,
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPO",
+            "id": "10",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "AOV",
+            "id": "11",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "COS",
+            "id": "12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "Click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "-",
+            "ConversionRate": "15",
+            "Revenue": "30",
+            "ROAS": "30",
+            "CPO": "30",
+            "AOV": "30",
+            "COS": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "-",
+            "ConversionRate": "12",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Executive Overview",
+        "reportId": 1,
+        "tableName": "",
+        "tableId": "1",
+        "showHeaders": true,
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "name": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "CPO",
+            "id": "10",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "AOV",
+            "id": "11",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "COS",
+            "id": "12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "Click": "10",
+            "Impression": "15",
+            "CTR": "10",
+            "Spend": "20",
+            "CPC": "20",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "30",
+            "ROAS": "30",
+            "CPO": "30",
+            "AOV": "30",
+            "COS": "30",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "20",
+            "Impression": "15",
+            "CTR": "20",
+            "Spend": "10",
+            "CPC": "40",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "15",
+            "Impression": "25",
+            "CTR": "10",
+            "Spend": "17",
+            "CPC": "20",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          },
+          {
+            "Click": "7",
+            "Impression": "18",
+            "CTR": "14",
+            "Spend": "15",
+            "CPC": "10",
+            "Conversions": "-",
+            "ConversionRate": "2",
+            "Revenue": "$0",
+            "ROAS": "-",
+            "CPO": "-",
+            "AOV": "-",
+            "COS": "-",
+            "toolTipEnable": true,
+            "toolTipFormat": ""
+          }
+        ]
+      }
+    ]
+  }
 }
