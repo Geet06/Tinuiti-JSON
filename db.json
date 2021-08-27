@@ -408,8 +408,8 @@
       "label": "Accounts",
       "data": [
         {
-          "name": "Esty",
-          "value": "1"
+          "name": "Accolite",
+          "value": "Accolite"
         }
       ]
     },
@@ -449,9 +449,9 @@
     }
   ],
   "reportsTable": {
-    "reportLabel": "ExecutiveOverview",
-    "reportValue": "executiveOverview",
-    "reportId": 1,
+    "reportLabel": "EXECUTIVE_OVERVIEW_REPORT",
+    "reportValue": "Executive Overview",
+    "reportId": 2,
     "elements": [
       {
         "VisualType": "Table",
@@ -460,7 +460,7 @@
         "reportName": "Daily Overview",
         "reportId": 1,
         "tableName": "Daily Paid Totals",
-        "tableId": "1",
+        "tableId": 1,
         "groupName": "CampaignType",
         "groupId": "1",
         "metrics": [
@@ -470,7 +470,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Label",
@@ -478,7 +479,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Group",
@@ -486,7 +488,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Fate",
@@ -494,7 +497,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           }
         ],
         "dimensions": [
@@ -504,7 +508,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Impressions",
@@ -512,7 +517,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "CTR",
@@ -520,7 +526,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Spend",
@@ -528,7 +535,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "CPC",
@@ -536,7 +544,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Conversions",
@@ -544,7 +553,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           }
         ]
       },
@@ -605,7 +615,7 @@
         "reportName": "",
         "reportId": 1,
         "tableName": "Google",
-        "tableId": "2",
+        "tableId": 2,
         "groupName": "CampaignType",
         "groupId": "1",
         "metrics": [
@@ -615,7 +625,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Label",
@@ -623,7 +634,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Group",
@@ -631,7 +643,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Fate",
@@ -639,7 +652,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           }
         ],
         "dimensions": [
@@ -649,7 +663,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Impressions",
@@ -657,7 +672,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "CTR",
@@ -665,7 +681,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Spend",
@@ -673,7 +690,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "CPC",
@@ -681,7 +699,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Conversions",
@@ -689,7 +708,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           }
         ]
       },
@@ -750,7 +770,7 @@
         "reportName": "",
         "reportId": 1,
         "tableName": "Bing",
-        "tableId": "3",
+        "tableId": 3,
         "groupName": "CampaignType",
         "groupId": "1",
         "metrics": [
@@ -760,7 +780,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Label",
@@ -768,7 +789,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Group",
@@ -776,7 +798,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Fate",
@@ -784,7 +807,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           }
         ],
         "dimensions": [
@@ -794,7 +818,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Impressions",
@@ -802,7 +827,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "CTR",
@@ -810,7 +836,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Spend",
@@ -818,7 +845,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "CPC",
@@ -826,7 +854,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Conversions",
@@ -834,7 +863,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           }
         ]
       },
@@ -845,7 +875,7 @@
         "reportName": "",
         "reportId": 1,
         "tableName": "Facebook",
-        "tableId": "4",
+        "tableId": 4,
         "groupName": "CampaignType",
         "groupId": "1",
         "metrics": [
@@ -855,7 +885,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Label",
@@ -863,7 +894,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Group",
@@ -871,7 +903,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Fate",
@@ -879,7 +912,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           }
         ],
         "dimensions": [
@@ -889,7 +923,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Impressions",
@@ -897,7 +932,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "CTR",
@@ -905,7 +941,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Spend",
@@ -913,7 +950,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "CPC",
@@ -921,7 +959,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Conversions",
@@ -929,7 +968,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           }
         ]
       }
@@ -1029,7 +1069,7 @@
       "reportName": "Daily Overview",
       "reportId": 1,
       "tableName": "Daily Paid Totals",
-      "tableId": "1",
+      "tableId": 1,
       "data": [
         {
           "Daily Paid Totals": "8/18/2021",
@@ -1524,8 +1564,8 @@
   ],
   "executiveOverviewHeader": {
     "reportValue": "EXECUTIVE_OVERVIEW_REPORT",
-    "reportLabel": "Executive overview",
-    "reportId": 2,
+    "reportLabel": "Executive Overview",
+    "reportId": 1,
     "elements": [
       {
         "VisualType": "Table",
@@ -1534,7 +1574,9 @@
         "reportName": "Executive Overview",
         "reportId": 2,
         "tableName": "Paid Channels",
-        "showHeaders": false,
+        "tableId": 1,
+        "hideHeader": true,
+        "widthClass": "half-columns",
         "metrics": [
           {
             "name": "Column1",
@@ -1542,7 +1584,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Column1Values",
@@ -1550,7 +1593,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Column2",
@@ -1558,7 +1602,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           },
           {
             "name": "Column2Values",
@@ -1566,35 +1611,11 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 1
           }
         ],
-        "dimensions": [
-          {
-            "Column1": "Clicks",
-            "Column1Values": 0,
-            "Column2": "Avg. CPC",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "Spend",
-            "Column1Values": "$0",
-            "Column2": "ROAS",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "Conversions",
-            "Column1Values": 0,
-            "Column2": "ConversionRate",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "Revenue",
-            "Column1Values": "$0",
-            "Column2": "AOV",
-            "Column2Values": "-"
-          }
-        ]
+        "dimensions": []
       },
       {
         "VisualType": "Table",
@@ -1603,7 +1624,9 @@
         "reportName": "Executive Overview",
         "reportId": 2,
         "tableName": "Sitewide Analytics",
-        "showHeaders": false,
+        "hideHeader": true,
+        "tableId": 2,
+        "widthClass": "half-columns",
         "metrics": [
           {
             "name": "Column1",
@@ -1611,7 +1634,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Column1Values",
@@ -1619,7 +1643,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Column2",
@@ -1627,7 +1652,8 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           },
           {
             "name": "Column2Values",
@@ -1635,35 +1661,11 @@
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 2
           }
         ],
-        "dimensions": [
-          {
-            "Column1": "Users",
-            "Column1Values": 0,
-            "Column2": "Cost / Visit",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "New User %",
-            "Column1Values": "-",
-            "Column2": "Site ROAS",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "Orders",
-            "Column1Values": 0,
-            "Column2": "Site CVR",
-            "Column2Values": "-"
-          },
-          {
-            "Column1": "Rev",
-            "Column1Values": "$0.00",
-            "Column2": "Site AOV",
-            "Column2Values": "-"
-          }
-        ]
+        "dimensions": []
       },
       {
         "VisualType": "Table",
@@ -1671,10 +1673,10 @@
         "Cols": 7,
         "reportName": "Executive Overview",
         "reportId": 1,
-        "tableName": "",
-        "tableId": "1",
+        "tableName": "Campaign Type",
+        "tableId": 3,
         "groupName": "",
-        "showHeaders": true,
+        "hideHeader": false,
         "groupId": "1",
         "metrics": [
           {
@@ -1683,7 +1685,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Impression",
@@ -1691,7 +1694,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "CTR",
@@ -1699,7 +1703,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Spend",
@@ -1707,7 +1712,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "CPC",
@@ -1715,7 +1721,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Conversions",
@@ -1723,7 +1730,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false
+            "CanFilter": false,
+            "tableId": 3
           },
           {
             "name": "ConversionRate",
@@ -1731,7 +1739,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "Revenue",
@@ -1739,7 +1748,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "ROAS",
@@ -1747,7 +1757,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "CPO",
@@ -1755,7 +1766,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "AOV",
@@ -1763,7 +1775,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           },
           {
             "name": "COS",
@@ -1771,89 +1784,19 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 3
           }
         ],
         "dimensions": [
           {
-            "Click": "10",
-            "Impression": "15",
-            "CTR": "10",
-            "Spend": "20",
-            "CPC": "20",
-            "Conversions": "-",
-            "ConversionRate": "15",
-            "Revenue": "30",
-            "ROAS": "30",
-            "CPO": "30",
-            "AOV": "30",
-            "COS": "30",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
-          },
-          {
-            "Click": "20",
-            "Impression": "15",
-            "CTR": "20",
-            "Spend": "10",
-            "CPC": "40",
-            "Conversions": "-",
-            "ConversionRate": "12",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
-          },
-          {
-            "Click": "15",
-            "Impression": "25",
-            "CTR": "10",
-            "Spend": "17",
-            "CPC": "20",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
-          },
-          {
-            "Click": "7",
-            "Impression": "18",
-            "CTR": "14",
-            "Spend": "15",
-            "CPC": "10",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
-          },
-          {
-            "Click": "7",
-            "Impression": "18",
-            "CTR": "14",
-            "Spend": "15",
-            "CPC": "10",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "label": "Campaign Type",
+            "name": "group",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       },
@@ -1863,9 +1806,9 @@
         "Cols": 7,
         "reportName": "Executive Overview",
         "reportId": 1,
-        "tableName": "",
-        "tableId": "1",
-        "showHeaders": true,
+        "tableName": "Campaign",
+        "tableId": 4,
+        "hideHeader": "",
         "groupId": "1",
         "metrics": [
           {
@@ -1874,7 +1817,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Impression",
@@ -1882,7 +1826,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "CTR",
@@ -1890,7 +1835,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Spend",
@@ -1898,7 +1844,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "CPC",
@@ -1906,7 +1853,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Conversions",
@@ -1914,7 +1862,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false
+            "CanFilter": false,
+            "tableId": 4
           },
           {
             "name": "ConversionRate",
@@ -1922,7 +1871,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "Revenue",
@@ -1930,7 +1880,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "ROAS",
@@ -1938,7 +1889,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "CPO",
@@ -1946,7 +1898,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "AOV",
@@ -1954,7 +1907,8 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           },
           {
             "name": "COS",
@@ -1962,92 +1916,673 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true
+            "CanFilter": true,
+            "tableId": 4
           }
         ],
         "dimensions": [
           {
-            "Click": "10",
-            "Impression": "15",
-            "CTR": "10",
-            "Spend": "20",
-            "CPC": "20",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "30",
-            "ROAS": "30",
-            "CPO": "30",
-            "AOV": "30",
-            "COS": "30",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "label": "Campaign",
+            "name": "label",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Executive Overview",
+        "reportId": 1,
+        "tableName": "Week Ending",
+        "tableId": 5,
+        "hideHeader": false,
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
           },
           {
-            "Click": "20",
-            "Impression": "15",
-            "CTR": "20",
-            "Spend": "10",
-            "CPC": "40",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
           },
           {
-            "Click": "15",
-            "Impression": "25",
-            "CTR": "10",
-            "Spend": "17",
-            "CPC": "20",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
           },
           {
-            "Click": "7",
-            "Impression": "18",
-            "CTR": "14",
-            "Spend": "15",
-            "CPC": "10",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
           },
           {
-            "Click": "7",
-            "Impression": "18",
-            "CTR": "14",
-            "Spend": "15",
-            "CPC": "10",
-            "Conversions": "-",
-            "ConversionRate": "2",
-            "Revenue": "$0",
-            "ROAS": "-",
-            "CPO": "-",
-            "AOV": "-",
-            "COS": "-",
-            "toolTipEnable": true,
-            "toolTipFormat": ""
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false,
+            "tableId": 5
+          },
+          {
+            "name": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "CPO",
+            "id": "10",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "AOV",
+            "id": "11",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          },
+          {
+            "name": "COS",
+            "id": "12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 5
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Week Ending",
+            "name": "date",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "VisualType": "Table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Executive Overview",
+        "reportId": 1,
+        "tableName": "Month Starting",
+        "tableId": 6,
+        "hideHeader": false,
+        "groupId": "1",
+        "metrics": [
+          {
+            "name": "Click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "Spend",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false,
+            "tableId": 6
+          },
+          {
+            "name": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "CPO",
+            "id": "10",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "AOV",
+            "id": "11",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          },
+          {
+            "name": "COS",
+            "id": "12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true,
+            "tableId": 6
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Month Starting",
+            "name": "date",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       }
     ]
-  }
+  },
+  "exeDimensionData": [
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Paid Channels",
+      "tableId": 1,
+      "data": [
+        {
+          "Column1": "Clicks",
+          "Column1Values": 0,
+          "Column2": "Avg. CPC",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "Spend",
+          "Column1Values": "$0",
+          "Column2": "ROAS",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "Conversions",
+          "Column1Values": 0,
+          "Column2": "ConversionRate",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "Revenue",
+          "Column1Values": "$0",
+          "Column2": "AOV",
+          "Column2Values": "-"
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Sitewide Analytics",
+      "tableId": 2,
+      "data": [
+        {
+          "Column1": "Users",
+          "Column1Values": 0,
+          "Column2": "Cost / Visit",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "New User %",
+          "Column1Values": "-",
+          "Column2": "Site ROAS",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "Orders",
+          "Column1Values": 0,
+          "Column2": "Site CVR",
+          "Column2Values": "-"
+        },
+        {
+          "Column1": "Rev",
+          "Column1Values": "$0.00",
+          "Column2": "Site AOV",
+          "Column2Values": "-"
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Campaign Type",
+      "tableId": 3,
+      "data": [
+        {
+          "group": "Non-Branded",
+          "Click": "10",
+          "Impression": "15",
+          "CTR": "10",
+          "Spend": "20",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "15",
+          "Revenue": "30",
+          "ROAS": "30",
+          "CPO": "30",
+          "AOV": "30",
+          "COS": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "group": "Shopping",
+          "Click": "20",
+          "Impression": "15",
+          "CTR": "20",
+          "Spend": "10",
+          "CPC": "40",
+          "Conversions": "-",
+          "ConversionRate": "12",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "group": "Non-Branded",
+          "Click": "15",
+          "Impression": "25",
+          "CTR": "10",
+          "Spend": "17",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "group": "Facebook",
+          "Click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Campaign",
+      "tableId": 4,
+      "data": [
+        {
+          "label": "Google Shopping",
+          "Click": "10",
+          "Impression": "15",
+          "CTR": "10",
+          "Spend": "20",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "30",
+          "ROAS": "30",
+          "CPO": "30",
+          "AOV": "30",
+          "COS": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "label": "Google Text-NB",
+          "Click": "20",
+          "Impression": "15",
+          "CTR": "20",
+          "Spend": "10",
+          "CPC": "40",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "label": "Google Text - Branded",
+          "Click": "15",
+          "Impression": "25",
+          "CTR": "10",
+          "Spend": "17",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Week Ending",
+      "tableId": 5,
+      "data": [
+        {
+          "date": "12/08/2021",
+          "Click": "10",
+          "Impression": "15",
+          "CTR": "10",
+          "Spend": "20",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "30",
+          "ROAS": "30",
+          "CPO": "30",
+          "AOV": "30",
+          "COS": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/08/2021",
+          "Click": "20",
+          "Impression": "15",
+          "CTR": "20",
+          "Spend": "10",
+          "CPC": "40",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "14/08/2021",
+          "Click": "15",
+          "Impression": "25",
+          "CTR": "10",
+          "Spend": "17",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "Click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "16/08/2021",
+          "Click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Month Starting",
+      "tableId": 6,
+      "data": [
+        {
+          "date": "12/01/2021",
+          "Click": "10",
+          "Impression": "15",
+          "CTR": "10",
+          "Spend": "20",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "30",
+          "ROAS": "30",
+          "CPO": "30",
+          "AOV": "30",
+          "COS": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/02/2021",
+          "Click": "20",
+          "Impression": "15",
+          "CTR": "20",
+          "Spend": "10",
+          "CPC": "40",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "14/03/2021",
+          "Click": "15",
+          "Impression": "25",
+          "CTR": "10",
+          "Spend": "17",
+          "CPC": "20",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/04/2021",
+          "Click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "16/05/2021",
+          "Click": "7",
+          "Impression": "18",
+          "CTR": "14",
+          "Spend": "15",
+          "CPC": "10",
+          "Conversions": "-",
+          "ConversionRate": "2",
+          "Revenue": "$0",
+          "ROAS": "-",
+          "CPO": "-",
+          "AOV": "-",
+          "COS": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    }
+  ]
 }
