@@ -408,7 +408,8 @@
       "label": "Accounts",
       "data": [
         {
-          "name": "Accolite",
+          "id": 1,
+          "label": "Accolite",
           "value": "Accolite"
         }
       ]
@@ -418,7 +419,8 @@
       "label": "Report",
       "data": [
         {
-          "name": "Executive Overview",
+          "id": 1,
+          "label": "Executive Overview",
           "value": "RPT_EXEC_OVERVIEW"
         }
       ]
@@ -428,7 +430,7 @@
       "label": "Last update",
       "data": [
         {
-          "name": "3 hrs ago",
+          "label": "3 hrs ago",
           "value": "3 hrs ago"
         }
       ]
@@ -438,23 +440,23 @@
       "label": "Date Range",
       "data": [
         {
-          "name": "7 / 11 to 7 / 17",
+          "label": "7 / 11 to 7 / 17",
           "value": "7 / 11 to 7 / 17"
         },
         {
-          "name": "2020 / 2021",
+          "label": "2020 / 2021",
           "value": "2020 / 2021"
         }
       ]
     }
   ],
-  "reportsTable": {
+  "reportstable": {
     "reportLabel": "EXECUTIVE_OVERVIEW_REPORT",
     "reportValue": "Executive Overview",
     "reportId": 2,
     "elements": [
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "Daily Overview",
@@ -559,7 +561,7 @@
         ]
       },
       {
-        "VisualType": "Chart",
+        "visualType": "chart",
         "chartType": "stackedBar",
         "tableName": "Daily Revenue by Channel",
         "chartName": "Daily Revenue by Channel",
@@ -609,7 +611,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "Table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "",
@@ -714,7 +716,7 @@
         ]
       },
       {
-        "VisualType": "Chart",
+        "visualType": "chart",
         "chartType": "line",
         "tableName": "Daily Revenue by Channel",
         "chartName": "Daily Revenue by Channel",
@@ -764,7 +766,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "Table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "",
@@ -869,7 +871,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "Table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "",
@@ -1109,6 +1111,76 @@
       "label": "CPM",
       "id": 14,
       "metricsId": "1_14",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "averageCpc",
+      "label": "Avg. CPC",
+      "id": 15,
+      "metricsId": "1_15",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "users",
+      "label": "Users",
+      "id": 16,
+      "metricsId": "1_16",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "newUser%",
+      "label": "New User %",
+      "id": 17,
+      "metricsId": "1_17",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "orders",
+      "label": "Orders",
+      "id": 18,
+      "metricsId": "1_18",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "rev",
+      "label": "Rev",
+      "id": 19,
+      "metricsId": "1_19",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "costPerVisit",
+      "label": "Cost / Visit",
+      "id": 20,
+      "metricsId": "1_20",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "averageCpc",
+      "label": "Avg. CPC",
+      "id": 21,
+      "metricsId": "1_21",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "siteRoas",
+      "label": "Site ROAS",
+      "id": 22,
+      "metricsId": "1_22",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "siteCvr",
+      "label": "Site CVR",
+      "id": 23,
+      "metricsId": "1_23",
+      "metricsCategoryId": 1
+    },
+    {
+      "name": "siteAov",
+      "label": "Site AOV",
+      "id": 24,
+      "metricsId": "1_24",
       "metricsCategoryId": 1
     }
   ],
@@ -1747,9 +1819,9 @@
     "reportId": 1,
     "elements": [
       {
-        "VisualType": "Table",
-        "Rows": 4,
-        "Cols": 4,
+        "visualType": "table",
+        "rows": 4,
+        "cols": 4,
         "reportName": "Executive Overview",
         "reportId": 2,
         "tableName": "Paid Channels",
@@ -1759,7 +1831,7 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "Column1",
+            "name": "metricsColumn1",
             "id": 0,
             "CanSort": false,
             "CanHide": "",
@@ -1768,7 +1840,7 @@
             "tableId": 1
           },
           {
-            "name": "Column1Values",
+            "name": "metricsColumn1Value",
             "id": 2,
             "CanSort": false,
             "CanHide": "",
@@ -1777,7 +1849,7 @@
             "tableId": 1
           },
           {
-            "name": "Column2",
+            "name": "metricsColumn2",
             "id": 3,
             "CanSort": false,
             "CanHide": "",
@@ -1786,7 +1858,7 @@
             "tableId": 1
           },
           {
-            "name": "Column2Values",
+            "name": "metricsColumn2Value",
             "id": 0,
             "CanSort": false,
             "CanHide": "",
@@ -1798,7 +1870,7 @@
         "dimensions": []
       },
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 4,
         "Cols": 4,
         "reportName": "Executive Overview",
@@ -1810,46 +1882,46 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "Column1",
+            "name": "metricsColumn1",
             "id": 0,
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
             "CanFilter": true,
-            "tableId": 2
+            "tableId": 1
           },
           {
-            "name": "Column1Values",
+            "name": "metricsColumn1Value",
             "id": 2,
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
             "CanFilter": true,
-            "tableId": 2
+            "tableId": 1
           },
           {
-            "name": "Column2",
+            "name": "metricsColumn2",
             "id": 3,
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
             "CanFilter": true,
-            "tableId": 2
+            "tableId": 1
           },
           {
-            "name": "Column2Values",
+            "name": "metricsColumn2Value",
             "id": 0,
             "CanSort": false,
             "CanHide": "",
             "CanResize": "",
             "CanFilter": true,
-            "tableId": 2
+            "tableId": 1
           }
         ],
         "dimensions": []
       },
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "Executive Overview",
@@ -1995,7 +2067,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "Executive Overview",
@@ -2140,7 +2212,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "Executive Overview",
@@ -2285,7 +2357,7 @@
         ]
       },
       {
-        "VisualType": "Table",
+        "visualType": "table",
         "Rows": 5,
         "Cols": 7,
         "reportName": "Executive Overview",
@@ -2437,30 +2509,88 @@
       "reportId": 1,
       "tableName": "Paid Channels",
       "tableId": 1,
+      "data1": [
+        {
+          "metricsId": "1_1",
+          "name": "click",
+          "label": "Click",
+          "id": 1,
+          "value": "0"
+        },
+        {
+          "name": "spend",
+          "label": "Spend",
+          "id": 5,
+          "metricsId": "1_5",
+          "value": "0"
+        },
+        {
+          "metricsId": "1_3",
+          "id": 3,
+          "name": "conversions",
+          "label": "Conversions",
+          "value": "-"
+        },
+        {
+          "name": "revenue",
+          "label": "Revenue",
+          "id": 8,
+          "metricsId": "1_8",
+          "value": "0"
+        },
+        {
+          "name": "averageCpc",
+          "label": "Avg. CPC",
+          "id": 15,
+          "metricsId": "1_15",
+          "value": "-"
+        },
+        {
+          "name": "roas",
+          "label": "ROAS",
+          "id": 9,
+          "metricsId": "1_9",
+          "value": "-"
+        },
+        {
+          "name": "conversionRate",
+          "label": "ConversionRate",
+          "id": 7,
+          "metricsId": "1_7",
+          "value": "0"
+        },
+        {
+          "name": "aov",
+          "label": "AOV",
+          "id": 11,
+          "metricsId": "1_11",
+          "value": "0"
+        }
+      ],
       "data": [
         {
-          "Column1": "Clicks",
-          "Column1Values": 0,
-          "Column2": "Avg. CPC",
-          "Column2Values": "-"
+          "metricsColumn1": "Click",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "Avg. CPC",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "Spend",
-          "Column1Values": "$0",
-          "Column2": "ROAS",
-          "Column2Values": "-"
+          "metricsColumn1": "Spend",
+          "metricsColumn1Value": "$0",
+          "metricsColumn2": "ROAS",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "Conversions",
-          "Column1Values": 0,
-          "Column2": "ConversionRate",
-          "Column2Values": "-"
+          "metricsColumn1": "Conversions",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "ConversionRate",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "Revenue",
-          "Column1Values": "$0",
-          "Column2": "AOV",
-          "Column2Values": "-"
+          "metricsColumn1": "Revenue",
+          "metricsColumn1Value": "$0",
+          "metricsColumn2": "AOV",
+          "metricsColumn2Value": "-"
         }
       ]
     },
@@ -2471,28 +2601,28 @@
       "tableId": 2,
       "data": [
         {
-          "Column1": "Users",
-          "Column1Values": 0,
-          "Column2": "Cost / Visit",
-          "Column2Values": "-"
+          "metricsColumn1": "Users",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "Cost / Visit",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "New User %",
-          "Column1Values": "-",
-          "Column2": "Site ROAS",
-          "Column2Values": "-"
+          "metricsColumn1": "New User %",
+          "metricsColumn1Value": "-",
+          "metricsColumn2": "Site ROAS",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "Orders",
-          "Column1Values": 0,
-          "Column2": "Site CVR",
-          "Column2Values": "-"
+          "metricsColumn1": "Orders",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "Site CVR",
+          "metricsColumn2Value": "-"
         },
         {
-          "Column1": "Rev",
-          "Column1Values": "$0.00",
-          "Column2": "Site AOV",
-          "Column2Values": "-"
+          "metricsColumn1": "Rev",
+          "metricsColumn1Value": "$0.00",
+          "metricsColumn2": "Site AOV",
+          "metricsColumn2Value": "-"
         }
       ]
     },
