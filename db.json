@@ -41,25 +41,25 @@
     {
       "id": "2",
       "label": "Previous period of same length",
-      "value": "Previous period of same length",
+      "value": "previousPeriodOfSameLength",
       "checked": false
     },
     {
       "id": "3",
       "label": "Same dates a year ago",
-      "value": "Same dates a year ago",
+      "value": "sameDatesAYearAgo",
       "checked": false
     },
     {
       "id": "4",
       "label": "Same dates a year ago,matching day of week",
-      "value": "Same dates a year ago,matching day of week",
+      "value": "sameDatesAYearAgoMatchingDayOfWeek",
       "checked": false
     },
     {
       "id": "5",
       "label": "Custom Date Range",
-      "value": "Custom Date Range",
+      "value": "'customDateRange",
       "checked": false
     }
   ],
