@@ -1819,9 +1819,9 @@
     "reportId": 1,
     "elements": [
       {
-        "visualType": "table",
+        "visualType": "xColumnTable",
         "rows": 4,
-        "cols": 4,
+        "cols": 2,
         "reportName": "Executive Overview",
         "reportId": 2,
         "tableName": "Paid Channels",
@@ -2509,13 +2509,20 @@
       "reportId": 1,
       "tableName": "Paid Channels",
       "tableId": 1,
-      "data1": [
+      "data": [
         {
           "metricsId": "1_1",
           "name": "click",
           "label": "Click",
           "id": 1,
           "value": "0"
+        },
+        {
+          "name": "averageCpc",
+          "label": "Avg. CPC",
+          "id": 15,
+          "metricsId": "1_15",
+          "value": ""
         },
         {
           "name": "spend",
@@ -2525,38 +2532,31 @@
           "value": "0"
         },
         {
-          "metricsId": "1_3",
-          "id": 3,
-          "name": "conversions",
-          "label": "Conversions",
-          "value": "-"
-        },
-        {
-          "name": "revenue",
-          "label": "Revenue",
-          "id": 8,
-          "metricsId": "1_8",
-          "value": "0"
-        },
-        {
-          "name": "averageCpc",
-          "label": "Avg. CPC",
-          "id": 15,
-          "metricsId": "1_15",
-          "value": "-"
-        },
-        {
           "name": "roas",
           "label": "ROAS",
           "id": 9,
           "metricsId": "1_9",
-          "value": "-"
+          "value": ""
+        },
+        {
+          "metricsId": "1_3",
+          "id": 3,
+          "name": "conversions",
+          "label": "Conversions",
+          "value": ""
         },
         {
           "name": "conversionRate",
           "label": "ConversionRate",
           "id": 7,
           "metricsId": "1_7",
+          "value": "0"
+        },
+        {
+          "name": "revenue",
+          "label": "Revenue",
+          "id": 8,
+          "metricsId": "1_8",
           "value": "0"
         },
         {
@@ -2567,7 +2567,7 @@
           "value": "0"
         }
       ],
-      "data": [
+      "data1": [
         {
           "metricsColumn1": "Click",
           "metricsColumn1Value": 0,
