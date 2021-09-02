@@ -2947,5 +2947,1682 @@
         }
       ]
     }
+  ],
+  "monthlyOverviewHeader": {
+    "reportValue": "MONTHLY_OVERVIEW_REPORT",
+    "reportLabel": "Monthly Overview",
+    "reportId": 2,
+    "elements": [
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Monthly Paid Totals",
+        "tableId": 1,
+        "groupName": "",
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "comparisonLabel": "Clicks",
+            "isComparisonPeriodFlag": true,
+            "tableId": 1,
+            "id": 1,
+            "comparisonData1": {
+              "name": "click1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "click2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Impressions",
+            "id": 2,
+            "isComparisonPeriodFlag": true,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "impression1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "impression2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CTR",
+            "isComparisonPeriodFlag": true,
+            "tableId": 1,
+            "id": 3,
+            "comparisonData1": {
+              "name": "ctr1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "ctr2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Spend",
+            "isComparisonPeriodFlag": true,
+            "id": 4,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "spend1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "spend2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPC",
+            "isComparisonPeriodFlag": true,
+            "id": 5,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "cpc1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpc2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conversions",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "conversions1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "conversions2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conv.Rate",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "convRate1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "convRate2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conv.Rate",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 1,
+            "comparisonData1": {
+              "name": "revenue1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "revenue2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Monthly Paid Totals",
+            "name": "date",
+            "id": "dimension_1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Bing",
+        "tableId": 2,
+        "groupName": "",
+        "hideHeader": false,
+        "groupId": 1,
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "comparisonLabel": "Clicks",
+            "isComparisonPeriodFlag": true,
+            "tableId": 2,
+            "id": 1,
+            "comparisonData1": {
+              "name": "click1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "click2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Impressions",
+            "id": 2,
+            "isComparisonPeriodFlag": true,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "impression1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "impression2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CTR",
+            "isComparisonPeriodFlag": true,
+            "tableId": 2,
+            "id": 3,
+            "comparisonData1": {
+              "name": "ctr1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "ctr2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Spend",
+            "isComparisonPeriodFlag": true,
+            "id": 4,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "spend1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "spend2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPC",
+            "isComparisonPeriodFlag": true,
+            "id": 5,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "cpc1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpc2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conversions",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "conversions1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "conversions2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conv.Rate",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "convRate1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "convRate2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Revenue",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "revenue1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "revenue2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "ROAS",
+            "isComparisonPeriodFlag": true,
+            "id": 8,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "roas1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "roas2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPO",
+            "isComparisonPeriodFlag": true,
+            "id": 9,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "cpo1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpo2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "AOV",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "aov1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "aov2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "COS",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 2,
+            "comparisonData1": {
+              "name": "cos1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cos2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Bing",
+            "name": "date",
+            "id": "dimension_2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Google",
+        "tableId": 5,
+        "groupName": "",
+        "hideHeader": false,
+        "groupId": 1,
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "comparisonLabel": "Clicks",
+            "isComparisonPeriodFlag": true,
+            "tableId": 5,
+            "id": 1,
+            "comparisonData1": {
+              "name": "click1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "click2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Impressions",
+            "id": 2,
+            "isComparisonPeriodFlag": true,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "impression1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "impression2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CTR",
+            "isComparisonPeriodFlag": true,
+            "tableId": 5,
+            "id": 3,
+            "comparisonData1": {
+              "name": "ctr1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "ctr2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Spend",
+            "isComparisonPeriodFlag": true,
+            "id": 4,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "spend1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "spend2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPC",
+            "isComparisonPeriodFlag": true,
+            "id": 5,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "cpc1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpc2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conversions",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "conversions1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "conversions2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conv.Rate",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "convRate1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "convRate2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Revenue",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "revenue1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "revenue2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "ROAS",
+            "isComparisonPeriodFlag": true,
+            "id": 8,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "roas1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "roas2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPO",
+            "isComparisonPeriodFlag": true,
+            "id": 9,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "cpo1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpo2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "AOV",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "aov1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "aov2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "COS",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 5,
+            "comparisonData1": {
+              "name": "cos1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cos2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Google",
+            "name": "date",
+            "id": "dimension_5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Facebook",
+        "tableId": 6,
+        "groupName": "",
+        "hideHeader": false,
+        "groupId": 1,
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "comparisonLabel": "Clicks",
+            "isComparisonPeriodFlag": true,
+            "tableId": 6,
+            "id": 1,
+            "comparisonData1": {
+              "name": "click1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "click2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Impressions",
+            "id": 2,
+            "isComparisonPeriodFlag": true,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "impression1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "impression2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CTR",
+            "isComparisonPeriodFlag": true,
+            "tableId": 6,
+            "id": 3,
+            "comparisonData1": {
+              "name": "ctr1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "ctr2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Spend",
+            "isComparisonPeriodFlag": true,
+            "id": 4,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "spend1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "spend2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPC",
+            "isComparisonPeriodFlag": true,
+            "id": 5,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "cpc1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpc2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conversions",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "conversions1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "conversions2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Conv.Rate",
+            "isComparisonPeriodFlag": true,
+            "id": 6,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "convRate1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "convRate2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "Revenue",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "revenue1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "revenue2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "ROAS",
+            "isComparisonPeriodFlag": true,
+            "id": 8,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "roas1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "roas2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "CPO",
+            "isComparisonPeriodFlag": true,
+            "id": 9,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "cpo1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cpo2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "AOV",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "aov1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "aov2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          },
+          {
+            "comparisonLabel": "COS",
+            "isComparisonPeriodFlag": true,
+            "id": 7,
+            "tableId": 6,
+            "comparisonData1": {
+              "name": "cos1",
+              "label": "2020",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            },
+            "comparisonData2": {
+              "name": "cos2",
+              "label": "2021",
+              "CanSort": true,
+              "CanResize": "",
+              "CanHide": "",
+              "CanFilter": true
+            }
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Facebook",
+            "name": "date",
+            "id": "dimension_6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      }
+    ]
+  },
+  "monthlyDimensionData": [
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Monthly Paid Totals",
+      "tableId": 1,
+      "data": [
+        {
+          "date": "12/08/2021",
+          "click1": "20",
+          "click2": "18",
+          "impression1": "15",
+          "impression2": "25",
+          "ctr1": "10",
+          "ctr2": "1",
+          "spend1": "20",
+          "spend2": "30",
+          "cpc1": "20",
+          "cpc2": "30",
+          "conversions1": "-",
+          "conversions2": "-",
+          "convRate1": "2",
+          "convRate2": "3",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas": "30",
+          "cpo": "30",
+          "aov": "30",
+          "cos": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/08/2021",
+          "click1": "20",
+          "click2": "23",
+          "impression1": "15",
+          "impression2": "15",
+          "ctr1": "11",
+          "ctr2": "13",
+          "spend1": "40",
+          "spend2": "23",
+          "cpc1": "30",
+          "cpc2": "76",
+          "conversions1": "-",
+          "conversions2": "-",
+          "convRate1": "5",
+          "convRate2": "1",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas": "-",
+          "cpo": "-",
+          "aov": "-",
+          "cos": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "14/08/2021",
+          "click1": "15",
+          "click2": "7",
+          "impression1": "25",
+          "impression2": "30",
+          "ctr1": "22",
+          "ctr2": "16",
+          "spend1": "24",
+          "spend2": "33",
+          "cpc1": "50",
+          "cpc2": "86",
+          "conversions1": "-",
+          "conversions2": "-",
+          "convRate1": "5",
+          "convRate2": "22",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas": "-",
+          "cpo": "-",
+          "aov": "-",
+          "cos": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "click1": "7",
+          "click2": "43",
+          "impression1": "18",
+          "impression2": "11",
+          "ctr1": "43",
+          "ctr2": "23",
+          "spend1": "12",
+          "spend2": "6",
+          "cpc1": "22",
+          "cpc2": "13",
+          "conversions1": "-",
+          "conversions2": "-",
+          "convRate1": "5",
+          "convRate2": "1",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas": "-",
+          "cpo": "-",
+          "aov": "-",
+          "cos": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "16/08/2021",
+          "click1": "7",
+          "click2": "22",
+          "impression1": "18",
+          "impression2": "38",
+          "ctr1": "56",
+          "ctr2": "18",
+          "spend1": "21",
+          "spend2": "12",
+          "cpc1": "18",
+          "cpc2": "12",
+          "conversions1": "-",
+          "conversions2": "-",
+          "convRate1": "6",
+          "convRate2": "8",
+          "revenue1": "$0",
+          "revenue2": "$0",
+
+          "roas": "-",
+          "cpo": "-",
+          "aov": "-",
+          "cos": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Bing",
+      "tableId": 2,
+      "data": [
+        {
+          "date": "12/08/2021",
+          "click1": "23",
+          "click2": "46",
+          "impression1": "72",
+          "impression2": "83",
+          "ctr1": "92",
+          "ctr2": "82",
+          "spend1": "74",
+          "spend2": "92",
+          "cpc1": "71",
+          "cpc2": "19",
+          "conversions1": "18",
+          "conversions2": "93",
+          "convRate1": "26",
+          "convRate2": "3",
+          "revenue1": "$2",
+          "revenue2": "$5",
+          "roas1": "27",
+          "roas2": "92",
+          "cpo1": "72",
+          "cpo2": "19",
+          "aov1": "28",
+          "aov2": "38",
+          "cos1": "57",
+          "cos2": "26",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/08/2021",
+          "click1": "4",
+          "click2": "32",
+          "impression1": "74",
+          "impression2": "57",
+          "ctr1": "35",
+          "ctr2": "73",
+          "spend1": "57",
+          "spend2": "34",
+          "cpc1": "23",
+          "cpc2": "87",
+          "conversions1": "45",
+          "conversions2": "56",
+          "convRate1": "54",
+          "convRate2": "44",
+          "revenue1": "$4",
+          "revenue2": "$23",
+          "roas1": "34",
+          "roas2": "24",
+          "cpo1": "87",
+          "cpo2": "57",
+          "aov1": "98",
+          "aov2": "55",
+          "cos1": "23",
+          "cos2": "67",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "14/08/2021",
+          "click1": "35",
+          "click2": "76",
+          "impression1": "43",
+          "impression2": "73",
+          "ctr1": "25",
+          "ctr2": "87",
+          "spend1": "17",
+          "spend2": "87",
+          "cpc1": "67",
+          "cpc2": "35",
+          "conversions1": "46",
+          "conversions2": "24",
+          "convRate1": "76",
+          "convRate2": "32",
+          "revenue1": "$3",
+          "revenue2": "$7",
+          "roas1": "34",
+          "roas2": "42",
+          "cpo1": "78",
+          "cpo2": "94",
+          "aov1": "32",
+          "aov2": "98",
+          "cos1": "43",
+          "cos2": "23",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "click1": "2",
+          "click2": "45",
+          "impression1": "48",
+          "impression2": "41",
+          "ctr1": "41",
+          "ctr2": "25",
+          "spend1": "14",
+          "spend2": "45",
+          "cpc1": "45",
+          "cpc2": "12",
+          "conversions1": "13",
+          "conversions2": "27",
+          "convRate1": "35",
+          "convRate2": "73",
+          "revenue1": "$23",
+          "revenue2": "$7",
+          "roas1": "25",
+          "roas2": "83",
+          "cpo1": "25",
+          "cpo2": "25",
+          "aov1": "26",
+          "aov2": "27",
+          "cos1": "12",
+          "cos2": "74",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "16/08/2021",
+          "click1": "2",
+          "click2": "64",
+          "impression1": "48",
+          "impression2": "8",
+          "ctr1": "5",
+          "ctr2": "8",
+          "spend1": "31",
+          "spend2": "98",
+          "cpc1": "78",
+          "cpc2": "13",
+          "conversions1": "32",
+          "conversions2": "76",
+          "convRate1": "56",
+          "convRate2": "82",
+          "revenue1": "$34",
+          "revenue2": "25",
+          "roas1": "73",
+          "roas2": "36",
+          "cpo1": "4",
+          "cpo2": "83",
+          "aov1": "32",
+          "aov2": "76",
+          "cos1": "47",
+          "cos2": "64",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Google",
+      "tableId": 5,
+      "data": [
+        {
+          "date": "12/08/2021",
+          "click1": "4",
+          "click2": "8",
+          "impression1": "25",
+          "impression2": "65",
+          "ctr1": "15",
+          "ctr2": "2",
+          "spend1": "54",
+          "spend2": "13",
+          "cpc1": "76",
+          "cpc2": "23",
+          "conversions1": "23",
+          "conversions2": "12",
+          "convRate1": "52",
+          "convRate2": "26",
+          "revenue1": "$2",
+          "revenue2": "$7",
+          "roas1": "24",
+          "roas2": "84",
+          "cpo1": "17",
+          "cpo2": "73",
+          "aov1": "2",
+          "aov2": "43",
+          "cos1": "73",
+          "cos2": "13",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/08/2021",
+          "click1": "26",
+          "click2": "26",
+          "impression1": "28",
+          "impression2": "22",
+          "ctr1": "83",
+          "ctr2": "14",
+          "spend1": "16",
+          "spend2": "17",
+          "cpc1": "13",
+          "cpc2": "17",
+          "conversions1": "55",
+          "conversions2": "18",
+          "convRate1": "51",
+          "convRate2": "21",
+          "revenue1": "$65",
+          "revenue2": "$4",
+          "roas1": "33",
+          "roas2": "13",
+          "cpo1": "75",
+          "cpo2": "27",
+          "aov1": "73",
+          "aov2": "14",
+          "cos1": "49",
+          "cos2": "36",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "14/08/2021",
+          "click1": "34",
+          "click2": "83",
+          "impression1": "36",
+          "impression2": "87",
+          "ctr1": "35",
+          "ctr2": "87",
+          "spend1": "35",
+          "spend2": "27",
+          "cpc1": "34",
+          "cpc2": "17",
+          "conversions1": "15",
+          "conversions2": "4",
+          "convRate1": "25",
+          "convRate2": "32",
+          "revenue1": "$3",
+          "revenue2": "$7",
+          "roas1": "34",
+          "roas2": "42",
+          "cpo1": "78",
+          "cpo2": "94",
+          "aov1": "32",
+          "aov2": "98",
+          "cos1": "43",
+          "cos2": "23",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "click1": "2",
+          "click2": "45",
+          "impression1": "48",
+          "impression2": "41",
+          "ctr1": "41",
+          "ctr2": "25",
+          "spend1": "14",
+          "spend2": "45",
+          "cpc1": "45",
+          "cpc2": "12",
+          "conversions1": "13",
+          "conversions2": "27",
+          "convRate1": "35",
+          "convRate2": "73",
+          "revenue1": "$23",
+          "revenue2": "$7",
+          "roas1": "25",
+          "roas2": "83",
+          "cpo1": "25",
+          "cpo2": "25",
+          "aov1": "26",
+          "aov2": "27",
+          "cos1": "12",
+          "cos2": "74",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "16/08/2021",
+          "click1": "2",
+          "click2": "64",
+          "impression1": "48",
+          "impression2": "8",
+          "ctr1": "5",
+          "ctr2": "8",
+          "spend1": "31",
+          "spend2": "98",
+          "cpc1": "78",
+          "cpc2": "13",
+          "conversions1": "32",
+          "conversions2": "76",
+          "convRate1": "56",
+          "convRate2": "82",
+          "revenue1": "$34",
+          "revenue2": "25",
+          "roas1": "73",
+          "roas2": "36",
+          "cpo1": "4",
+          "cpo2": "83",
+
+          "aov1": "32",
+          "aov2": "76",
+          "cos1": "47",
+          "cos2": "64",
+
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Facebook",
+      "tableId": 6,
+      "data": [
+        {
+          "date": "12/08/2021",
+          "click1": "22",
+          "click2": "34",
+          "impression1": "15",
+          "impression2": "25",
+          "ctr1": "10",
+          "ctr2": "1",
+          "spend1": "20",
+          "spend2": "50",
+          "cpc1": "20",
+          "cpc2": "50",
+          "conversions1": "23",
+          "conversions2": "32",
+          "convRate1": "2",
+          "convRate2": "5",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas1": "50",
+          "roas2": "50",
+          "cpo1": "51",
+          "cpo2": "23",
+          "aov1": "50",
+          "aov2": "25",
+
+          "cos1": "25",
+          "cos2": "23",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "click1": "20",
+          "click2": "25",
+          "impression1": "15",
+          "impression2": "15",
+          "ctr1": "11",
+          "ctr2": "15",
+          "spend1": "10",
+          "spend2": "25",
+          "cpc1": "50",
+          "cpc2": "23",
+          "conversions1": "29",
+          "conversions2": "86",
+          "convRate1": "5",
+          "convRate2": "1",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas1": "13",
+          "roas2": "5",
+          "cpo1": "51",
+          "cpo2": "3",
+          "aov1": "25",
+          "aov2": "52",
+          "cos1": "12",
+          "cos2": "12",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "11/08/2021",
+          "click1": "15",
+          "click2": "2",
+          "impression1": "25",
+          "impression2": "50",
+          "ctr1": "22",
+          "ctr2": "13",
+          "spend1": "21",
+          "spend2": "55",
+          "cpc1": "50",
+          "cpc2": "83",
+          "conversions1": "83",
+          "conversions2": "72",
+          "convRate1": "5",
+          "convRate2": "22",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas1": "53",
+          "roas2": "22",
+          "cpo1": "28",
+          "cpo2": "51",
+          "aov1": "12",
+          "aov2": "35",
+          "cos1": "51",
+          "cos2": "28",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "15/08/2021",
+          "click1": "2",
+          "click2": "15",
+          "impression1": "18",
+          "impression2": "11",
+          "ctr1": "15",
+          "ctr2": "25",
+          "spend1": "12",
+          "spend2": "3",
+          "cpc1": "22",
+          "cpc2": "15",
+          "conversions1": "23",
+          "conversions2": "12",
+          "convRate1": "5",
+          "convRate2": "1",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas1": "28",
+          "roas2": "13",
+          "cpo1": "22",
+          "cpo2": "35",
+          "aov1": "11",
+          "aov2": "28",
+          "cos1": "15",
+          "cos2": "22",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "13/08/2021",
+          "click1": "2",
+          "click2": "22",
+          "impression1": "18",
+          "impression2": "58",
+          "ctr1": "53",
+          "ctr2": "18",
+          "spend1": "21",
+          "spend2": "12",
+          "cpc1": "18",
+          "cpc2": "12",
+          "conversions1": "43",
+          "conversions2": "34",
+          "convRate1": "3",
+          "convRate2": "8",
+          "revenue1": "$0",
+          "revenue2": "$0",
+          "roas1": "22",
+          "roas2": "91",
+          "cpo1": "12",
+          "cpo2": "55",
+          "aov1": "12",
+          "aov2": "51",
+          "cos1": "15",
+          "cos2": "23",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    }
   ]
 }
