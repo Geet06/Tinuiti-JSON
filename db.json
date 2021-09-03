@@ -1870,7 +1870,7 @@
         "dimensions": []
       },
       {
-        "visualType": "table",
+        "visualType": "xColumnTable",
         "Rows": 4,
         "Cols": 4,
         "reportName": "Executive Overview",
@@ -2509,6 +2509,96 @@
       "reportId": 1,
       "tableName": "Paid Channels",
       "tableId": 1,
+      "data": 
+        {
+          "metricsId": "1_1",
+          "name": "click",
+          "label": "Click",
+          "id": 1,
+          "value": "0"
+        },
+        {
+          "name": "averageCpc",
+          "label": "Avg. CPC",
+          "id": 15,
+          "metricsId": "1_15",
+          "value": ""
+        },
+        {
+          "name": "spend",
+          "label": "Spend",
+          "id": 5,
+          "metricsId": "1_5",
+          "value": "0"
+        },
+        {
+          "name": "roas",
+          "label": "ROAS",
+          "id": 9,
+          "metricsId": "1_9",
+          "value": ""
+        },
+        {
+          "metricsId": "1_3",
+          "id": 3,
+          "name": "conversions",
+          "label": "Conversions",
+          "value": ""
+        },
+        {
+          "name": "conversionRate",
+          "label": "ConversionRate",
+          "id": 7,
+          "metricsId": "1_7",
+          "value": "0"
+        },
+        {
+          "name": "revenue",
+          "label": "Revenue",
+          "id": 8,
+          "metricsId": "1_8",
+          "value": "0"
+        },
+        {
+          "name": "aov",
+          "label": "AOV",
+          "id": 11,
+          "metricsId": "1_11",
+          "value": "0"
+        }
+      ],[
+      "data1": [
+        {
+          "metricsColumn1": "Click",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "Avg. CPC",
+          "metricsColumn2Value": "-"
+        },
+        {
+          "metricsColumn1": "Spend",
+          "metricsColumn1Value": "$0",
+          "metricsColumn2": "ROAS",
+          "metricsColumn2Value": "-"
+        },
+        {
+          "metricsColumn1": "Conversions",
+          "metricsColumn1Value": 0,
+          "metricsColumn2": "ConversionRate",
+          "metricsColumn2Value": "-"
+        },
+        {
+          "metricsColumn1": "Revenue",
+          "metricsColumn1Value": "$0",
+          "metricsColumn2": "AOV",
+          "metricsColumn2Value": "-"
+        }
+      ]
+    },
+    {
+      "reportName": "Executive Overview",
+      "reportId": 1,
+      "tableName": "Sitewide Analytics",
+      "tableId": 2,
       "data": [
         {
           "metricsId": "1_1",
@@ -2568,38 +2658,6 @@
         }
       ],
       "data1": [
-        {
-          "metricsColumn1": "Click",
-          "metricsColumn1Value": 0,
-          "metricsColumn2": "Avg. CPC",
-          "metricsColumn2Value": "-"
-        },
-        {
-          "metricsColumn1": "Spend",
-          "metricsColumn1Value": "$0",
-          "metricsColumn2": "ROAS",
-          "metricsColumn2Value": "-"
-        },
-        {
-          "metricsColumn1": "Conversions",
-          "metricsColumn1Value": 0,
-          "metricsColumn2": "ConversionRate",
-          "metricsColumn2Value": "-"
-        },
-        {
-          "metricsColumn1": "Revenue",
-          "metricsColumn1Value": "$0",
-          "metricsColumn2": "AOV",
-          "metricsColumn2Value": "-"
-        }
-      ]
-    },
-    {
-      "reportName": "Executive Overview",
-      "reportId": 1,
-      "tableName": "Sitewide Analytics",
-      "tableId": 2,
-      "data": [
         {
           "metricsColumn1": "Users",
           "metricsColumn1Value": 0,
