@@ -1297,49 +1297,13 @@
         "cols": 2,
         "reportName": "Executive Overview",
         "reportId": 2,
+        "tableType": "",
         "tableName": "Paid Channels",
         "tableId": 1,
         "hideHeader": true,
         "widthClass": "half-columns mr-5",
         "isEditPopupOpen": false,
-        "metrics": [
-          {
-            "name": "metricsColumn1",
-            "id": 0,
-            "CanSort": false,
-            "CanHide": "",
-            "CanResize": "",
-            "CanFilter": true,
-            "tableId": 1
-          },
-          {
-            "name": "metricsColumn1Value",
-            "id": 2,
-            "CanSort": false,
-            "CanHide": "",
-            "CanResize": "",
-            "CanFilter": true,
-            "tableId": 1
-          },
-          {
-            "name": "metricsColumn2",
-            "id": 3,
-            "CanSort": false,
-            "CanHide": "",
-            "CanResize": "",
-            "CanFilter": true,
-            "tableId": 1
-          },
-          {
-            "name": "metricsColumn2Value",
-            "id": 0,
-            "CanSort": false,
-            "CanHide": "",
-            "CanResize": "",
-            "CanFilter": true,
-            "tableId": 1
-          }
-        ],
+        "metrics": [],
         "dimensions": []
       },
       {
@@ -1350,6 +1314,7 @@
         "reportId": 2,
         "tableName": "Sitewide Analytics",
         "hideHeader": true,
+        "tableType": "",
         "tableId": 2,
         "widthClass": "half-columns",
         "isEditPopupOpen": false,
@@ -1364,6 +1329,7 @@
         "reportId": 1,
         "tableName": "Campaign Type",
         "tableId": 3,
+        "tableType": "",
         "groupName": "",
         "hideHeader": false,
         "groupId": "1",
@@ -1373,120 +1339,72 @@
             "value": "click",
             "label": "Click",
             "id": "1",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "impression",
             "label": "Impression",
             "id": "2",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "spend",
             "label": "Spend",
             "id": "5",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": false,
             "tableId": 3
           },
           {
             "value": "conversionRate",
             "label": "ConversionRate",
             "id": "7",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           }
         ],
@@ -1494,11 +1412,7 @@
           {
             "label": "Campaign Type",
             "value": "campaign_type",
-            "id": "dimension_1",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true
+            "id": "dimension_1"
           }
         ]
       },
@@ -1510,6 +1424,7 @@
         "reportId": 1,
         "tableName": "Campaign",
         "tableId": 4,
+        "tableType": "",
         "hideHeader": "",
         "groupId": "1",
         "isEditPopupOpen": false,
@@ -1518,120 +1433,72 @@
             "value": "click",
             "label": "Click",
             "id": "1",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "impression",
             "label": "Impression",
             "id": "2",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "spend",
             "label": "Spend",
             "id": "5",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": false,
             "tableId": 3
           },
           {
             "value": "conversionRate",
             "label": "ConversionRate",
             "id": "7",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           }
         ],
@@ -1639,11 +1506,7 @@
           {
             "label": "Campaign",
             "value": "campaign",
-            "id": "dimension_2",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true
+            "id": "dimension_2"
           }
         ]
       },
@@ -1655,6 +1518,7 @@
         "reportId": 1,
         "tableName": "Week Ending",
         "tableId": 5,
+        "tableType": "week",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
@@ -1663,120 +1527,72 @@
             "value": "click",
             "label": "Click",
             "id": "1",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "impression",
             "label": "Impression",
             "id": "2",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "spend",
             "label": "Spend",
             "id": "5",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": false,
             "tableId": 3
           },
           {
             "value": "conversionRate",
             "label": "ConversionRate",
             "id": "7",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           }
         ],
@@ -1784,11 +1600,7 @@
           {
             "label": "Week Ending",
             "value": "date",
-            "id": "dimension_3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true
+            "id": "dimension_3"
           }
         ]
       },
@@ -1800,6 +1612,7 @@
         "reportId": 1,
         "tableName": "Month Starting",
         "tableId": 6,
+        "tableType": "month",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
@@ -1808,120 +1621,72 @@
             "value": "click",
             "label": "Click",
             "id": "1",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "impression",
             "label": "Impression",
             "id": "2",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "spend",
             "label": "Spend",
             "id": "5",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": false,
             "tableId": 3
           },
           {
             "value": "conversionRate",
             "label": "ConversionRate",
             "id": "7",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true,
             "tableId": 3
           }
         ],
@@ -1929,11 +1694,7 @@
           {
             "label": "Month Starting",
             "value": "date",
-            "id": "dimension_3",
-            "CanSort": true,
-            "CanResize": "",
-            "CanHide": "",
-            "CanFilter": true
+            "id": "dimension_3"
           }
         ]
       }
