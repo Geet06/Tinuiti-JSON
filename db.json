@@ -531,7 +531,7 @@
       "metricsCategoryId": 1
     },
     {
-      "name": "conversionRate",
+      "name": "conversion_rate",
       "label": "ConversionRate",
       "id": 7,
       "metricsId": "1_7",
@@ -1654,7 +1654,7 @@
             "tableId": 3
           },
           {
-            "value": "conversionRate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "tableId": 3
@@ -1744,7 +1744,7 @@
           "value": ""
         },
         {
-          "name": "conversionRate",
+          "name": "conversion_rate",
           "label": "ConversionRate",
           "id": 7,
           "metricsId": "1_7",
@@ -1836,7 +1836,7 @@
           "value": ""
         },
         {
-          "name": "conversionRate",
+          "name": "conversion_rate",
           "label": "ConversionRate",
           "id": 7,
           "metricsId": "1_7",
@@ -1893,13 +1893,12 @@
       "data": [
         {
           "campaign_type": "Non-Branded",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
-          "spend": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "cpo": "30",
@@ -1910,13 +1909,12 @@
         },
         {
           "campaign_type": "Shopping",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
-          "spend": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "cpo": "-",
@@ -1927,13 +1925,13 @@
         },
         {
           "campaign_type": "Non-Branded",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "spend": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "cpo": "-",
@@ -1944,13 +1942,12 @@
         },
         {
           "campaign_type": "Facebook",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
-          "spend": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "cpo": "-",
@@ -1969,13 +1966,12 @@
       "data": [
         {
           "campaign": "Google Shopping",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
-          "spend": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "30",
           "roas": "30",
           "cpo": "30",
@@ -1986,13 +1982,12 @@
         },
         {
           "campaign": "Google Text-NB",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
-          "spend": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "cpo": "-",
@@ -3963,7 +3958,7 @@
             "tableId": 1
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -4108,8 +4103,8 @@
             "tableId": 2
           },
           {
-            "name": "impression",
-            "label": "Impression",
+            "name": "impressions",
+            "label": "impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
@@ -4158,7 +4153,7 @@
             "tableId": 2
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -4253,8 +4248,8 @@
             "tableId": 3
           },
           {
-            "name": "impression",
-            "label": "Impression",
+            "name": "impressions",
+            "label": "impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
@@ -4303,7 +4298,7 @@
             "tableId": 3
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -4448,8 +4443,8 @@
             "tableId": 4
           },
           {
-            "name": "impression",
-            "label": "Impression",
+            "name": "impressions",
+            "label": "impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
@@ -4498,7 +4493,7 @@
             "tableId": 4
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -4582,7 +4577,7 @@
         {
           "date": "12/01/2021",
           "click": "21",
-          "impression": "34",
+          "impressions": "34",
           "ctr": "67",
           "spend": "2",
           "cpc": "56",
@@ -4599,7 +4594,7 @@
         {
           "date": "13/02/2021",
           "click": "20",
-          "impression": "15",
+          "impressions": "15",
           "ctr": "20",
           "spend": "10",
           "cpc": "40",
@@ -4616,7 +4611,7 @@
         {
           "date": "14/03/2021",
           "click": "15",
-          "impression": "25",
+          "impressions": "25",
           "ctr": "10",
           "spend": "17",
           "cpc": "20",
@@ -4633,7 +4628,7 @@
         {
           "date": "15/04/2021",
           "click": "34",
-          "impression": "73",
+          "impressions": "73",
           "ctr": "12",
           "spend": "54",
           "cpc": "12",
@@ -4650,7 +4645,7 @@
         {
           "date": "16/05/2021",
           "click": "56",
-          "impression": "45",
+          "impressions": "45",
           "ctr": "12",
           "spend": "98",
           "cpc": "34",
@@ -4675,7 +4670,7 @@
         {
           "date": "12/08/2021",
           "click": "12",
-          "impression": "67",
+          "impressions": "67",
           "ctr": "23",
           "spend": "87",
           "cpc": "26",
@@ -4692,7 +4687,7 @@
         {
           "date": "13/08/2021",
           "click": "28",
-          "impression": "92",
+          "impressions": "92",
           "ctr": "21",
           "spend": "29",
           "cpc": "82",
@@ -4709,7 +4704,7 @@
         {
           "date": "14/08/2021",
           "click": "48",
-          "impression": "34",
+          "impressions": "34",
           "ctr": "89",
           "spend": "67",
           "cpc": "76",
@@ -4726,7 +4721,7 @@
         {
           "date": "15/08/2021",
           "click": "36",
-          "impression": "28",
+          "impressions": "28",
           "ctr": "43",
           "spend": "12",
           "cpc": "67",
@@ -4743,7 +4738,7 @@
         {
           "date": "16/08/2021",
           "click": "23",
-          "impression": "32",
+          "impressions": "32",
           "ctr": "4",
           "spend": "1",
           "cpc": "16",
@@ -4768,7 +4763,7 @@
         {
           "date": "12/08/2021",
           "click": "45",
-          "impression": "15",
+          "impressions": "15",
           "ctr": "23",
           "spend": "78",
           "cpc": "2",
@@ -4785,7 +4780,7 @@
         {
           "date": "13/08/2021",
           "click": "20",
-          "impression": "15",
+          "impressions": "15",
           "ctr": "20",
           "spend": "10",
           "cpc": "40",
@@ -4802,7 +4797,7 @@
         {
           "date": "14/08/2021",
           "click": "23",
-          "impression": "3",
+          "impressions": "3",
           "ctr": "84",
           "spend": "81",
           "cpc": "23",
@@ -4819,7 +4814,7 @@
         {
           "date": "15/08/2021",
           "click": "64",
-          "impression": "28",
+          "impressions": "28",
           "ctr": "82",
           "spend": "29",
           "cpc": "56",
@@ -4836,7 +4831,7 @@
         {
           "date": "16/08/2021",
           "click": "35",
-          "impression": "84",
+          "impressions": "84",
           "ctr": "53",
           "spend": "34",
           "cpc": "20",
@@ -4861,7 +4856,7 @@
         {
           "date": "12/01/2021",
           "click": "21",
-          "impression": "34",
+          "impressions": "34",
           "ctr": "67",
           "spend": "2",
           "cpc": "56",
@@ -4878,7 +4873,7 @@
         {
           "date": "13/02/2021",
           "click": "20",
-          "impression": "15",
+          "impressions": "15",
           "ctr": "20",
           "spend": "10",
           "cpc": "40",
@@ -4895,7 +4890,7 @@
         {
           "date": "14/03/2021",
           "click": "15",
-          "impression": "25",
+          "impressions": "25",
           "ctr": "10",
           "spend": "17",
           "cpc": "20",
@@ -4912,7 +4907,7 @@
         {
           "date": "15/04/2021",
           "click": "34",
-          "impression": "73",
+          "impressions": "73",
           "ctr": "12",
           "spend": "54",
           "cpc": "12",
@@ -4929,7 +4924,7 @@
         {
           "date": "16/05/2021",
           "click": "56",
-          "impression": "45",
+          "impressions": "45",
           "ctr": "12",
           "spend": "98",
           "cpc": "34",
@@ -4975,7 +4970,7 @@
             "tableId": 1
           },
           {
-            "name": "impression",
+            "name": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
@@ -5025,7 +5020,7 @@
             "tableId": 1
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -5140,7 +5135,7 @@
             "tableId": 2
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -5255,7 +5250,7 @@
             "tableId": 3
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -5370,7 +5365,7 @@
             "tableId": 4
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
@@ -5485,7 +5480,7 @@
             "tableId": 5
           },
           {
-            "name": "conversionRate",
+            "name": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
