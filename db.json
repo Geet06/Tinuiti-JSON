@@ -1336,14 +1336,14 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "value": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "tableId": 3
           },
           {
-            "value": "impression",
-            "label": "Impression",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "tableId": 3
           },
@@ -1372,7 +1372,7 @@
             "tableId": 3
           },
           {
-            "value": "conversionRate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "tableId": 3
@@ -1430,14 +1430,14 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "value": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "tableId": 3
           },
           {
-            "value": "impression",
-            "label": "Impression",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "tableId": 3
           },
@@ -1466,7 +1466,7 @@
             "tableId": 3
           },
           {
-            "value": "conversionRate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "tableId": 3
@@ -1524,14 +1524,14 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "value": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "tableId": 3
           },
           {
-            "value": "impression",
-            "label": "Impression",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "tableId": 3
           },
@@ -1560,7 +1560,7 @@
             "tableId": 3
           },
           {
-            "value": "conversionRate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "tableId": 3
@@ -1618,14 +1618,14 @@
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "value": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "tableId": 3
           },
           {
-            "value": "impression",
-            "label": "Impression",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "tableId": 3
           },
