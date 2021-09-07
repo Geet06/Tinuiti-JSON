@@ -518,7 +518,7 @@
     },
     {
       "name": "spend",
-      "label": "Spend",
+      "label": "Cost",
       "id": 5,
       "metricsId": "1_5",
       "metricsCategoryId": 1
@@ -1354,8 +1354,8 @@
             "tableId": 3
           },
           {
-            "value": "spend",
-            "label": "Spend",
+            "value": "cost",
+            "label": "Cost",
             "id": "5",
             "tableId": 3
           },
@@ -1448,8 +1448,8 @@
             "tableId": 3
           },
           {
-            "value": "spend",
-            "label": "Spend",
+            "value": "cost",
+            "label": "Cost",
             "id": "5",
             "tableId": 3
           },
@@ -1542,8 +1542,8 @@
             "tableId": 3
           },
           {
-            "value": "spend",
-            "label": "Spend",
+            "value": "cost",
+            "label": "Cost",
             "id": "5",
             "tableId": 3
           },
@@ -1599,7 +1599,7 @@
         "dimensions": [
           {
             "label": "Week Ending",
-            "value": "date",
+            "value": "daily_date",
             "id": "dimension_3"
           }
         ]
@@ -1636,8 +1636,8 @@
             "tableId": 3
           },
           {
-            "value": "spend",
-            "label": "Spend",
+            "value": "cost",
+            "label": "Cost",
             "id": "5",
             "tableId": 3
           },
@@ -1693,7 +1693,7 @@
         "dimensions": [
           {
             "label": "Month Starting",
-            "value": "date",
+            "value": "daily_date",
             "id": "dimension_3"
           }
         ]
@@ -1723,7 +1723,7 @@
         },
         {
           "name": "spend",
-          "label": "Spend",
+          "label": "Cost",
           "id": 5,
           "type": "currency",
           "metricsId": "1_5",
@@ -1815,7 +1815,7 @@
         },
         {
           "name": "spend",
-          "label": "Spend",
+          "label": "Cost",
           "type": "currency",
           "id": 5,
           "metricsId": "1_5",
@@ -2690,7 +2690,7 @@
         "dimensions": [
           {
             "label": "Bing",
-            "name": "date",
+            "name": "daily_date",
             "id": "dimension_2",
             "CanSort": true,
             "CanResize": "",
@@ -2980,7 +2980,7 @@
         "dimensions": [
           {
             "label": "Google",
-            "name": "date",
+            "name": "daily_date",
             "id": "dimension_5",
             "CanSort": true,
             "CanResize": "",
@@ -3270,7 +3270,7 @@
         "dimensions": [
           {
             "label": "Facebook",
-            "name": "date",
+            "name": "daily_date",
             "id": "dimension_6",
             "CanSort": true,
             "CanResize": "",
@@ -3929,7 +3929,7 @@
           },
           {
             "name": "spend",
-            "label": "Spend",
+            "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
@@ -4124,7 +4124,7 @@
           },
           {
             "name": "spend",
-            "label": "Spend",
+            "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
@@ -4269,7 +4269,7 @@
           },
           {
             "name": "spend",
-            "label": "Spend",
+            "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
@@ -4464,7 +4464,7 @@
           },
           {
             "name": "spend",
-            "label": "Spend",
+            "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
