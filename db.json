@@ -1339,80 +1339,120 @@
             "value": "clicks",
             "label": "Clicks",
             "id": "1",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "impressions",
             "label": "Impressions",
             "id": "2",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cost",
             "label": "Cost",
             "id": "5",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Campaign Type",
             "value": "campaign_type",
-            "id": "dimension_1"
+            "id": "dimension_1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       },
@@ -1433,80 +1473,120 @@
             "value": "clicks",
             "label": "Clicks",
             "id": "1",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "impressions",
             "label": "Impressions",
             "id": "2",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cost",
             "label": "Cost",
             "id": "5",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Campaign",
             "value": "campaign",
-            "id": "dimension_2"
+            "id": "dimension_2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       },
@@ -1527,80 +1607,120 @@
             "value": "clicks",
             "label": "Clicks",
             "id": "1",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "impressions",
             "label": "Impressions",
             "id": "2",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cost",
             "label": "Cost",
             "id": "5",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Week Ending",
             "value": "daily_date",
-            "id": "dimension_3"
+            "id": "dimension_3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       },
@@ -1621,80 +1741,120 @@
             "value": "clicks",
             "label": "Clicks",
             "id": "1",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "impressions",
             "label": "Impressions",
             "id": "2",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "ctr",
             "label": "CTR",
             "id": "4",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cost",
             "label": "Cost",
             "id": "5",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpc",
             "label": "CPC",
             "id": "6",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversions",
             "label": "Conversions",
             "id": "3",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "revenue",
             "label": "Revenue",
             "id": "8",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "roas",
             "label": "ROAS",
             "id": "9",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cpo",
             "label": "CPO",
             "id": "10",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "aov",
             "label": "AOV",
             "id": "11",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
             "value": "cos",
             "label": "COS",
             "id": "12",
-            "tableId": 3
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Month Starting",
             "value": "daily_date",
-            "id": "dimension_3"
+            "id": "dimension_3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       }
