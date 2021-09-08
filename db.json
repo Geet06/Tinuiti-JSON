@@ -455,29 +455,36 @@
       "dimensionId": 1,
       "id": "dimension_0",
       "label": "Catalogue",
-      "name": "Catalogue",
+      "value": "Catalogue",
       "expanded": true
     },
     {
       "dimensionId": "1_1",
       "id": "dimension_1",
-      "label": "Group",
-      "name": "group",
+      "label": "Campaign Type",
+      "value": "campaign_type",
       "dimensionCategoryId": 1
     },
     {
       "dimensionId": "1_2",
       "id": "dimension_2",
-      "label": "Label",
-      "dimensionCategoryId": 1,
-      "name": "label"
+      "label": "Campaign",
+      "value": "campaign",
+      "dimensionCategoryId": 1
     },
     {
       "dimensionId": "1_3",
       "id": "dimension_3",
-      "label": "Date",
+      "label": "Week Ending",
       "dimensionCategoryId": 1,
-      "name": "date"
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_4",
+      "id": "dimension_4",
+      "label": "Month Starting",
+      "dimensionCategoryId": 1,
+      "value": "date"
     }
   ],
   "metricsList": [
@@ -485,39 +492,39 @@
       "metricsId": 1,
       "id": 0,
       "label": "Catalogue",
-      "name": "catalogue",
+      "value": "catalogue",
       "expanded": true
     },
     {
       "metricsId": "1_1",
-      "name": "click",
-      "label": "Click",
+      "value": "clicks",
+      "label": "Clicks",
       "id": 1,
       "metricsCategoryId": 1
     },
     {
       "metricsId": "1_2",
       "metricsCategoryId": 1,
-      "name": "impression",
-      "label": "Impression",
+      "value": "impressions",
+      "label": "Impressions",
       "id": 2
     },
     {
       "metricsId": "1_3",
       "id": 3,
       "metricsCategoryId": 1,
-      "name": "conversions",
+      "value": "conversions",
       "label": "Conversions"
     },
     {
-      "name": "ctr",
+      "value": "ctr",
       "label": "CTR",
       "id": 4,
       "metricsId": "1_4",
       "metricsCategoryId": 1
     },
     {
-      "name": "spend",
+      "value": "cost",
       "label": "Cost",
       "id": 5,
       "metricsId": "1_5",
