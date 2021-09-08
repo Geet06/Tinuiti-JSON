@@ -1605,7 +1605,7 @@
         "reportId": 1,
         "tableName": "Week Ending",
         "tableId": 5,
-        "tableType": "weekly",
+        "tableType": "Weekly",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
@@ -1722,7 +1722,7 @@
         "dimensions": [
           {
             "label": "Week Ending",
-            "value": "daily_date",
+            "value": "date",
             "id": "dimension_3",
             "CanSort": true,
             "CanResize": "",
@@ -1739,7 +1739,7 @@
         "reportId": 1,
         "tableName": "Month Starting",
         "tableId": 6,
-        "tableType": "monthly",
+        "tableType": "Monthly",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
@@ -1856,8 +1856,8 @@
         "dimensions": [
           {
             "label": "Month Starting",
-            "value": "daily_date",
-            "id": "dimension_3",
+            "value": "date",
+            "id": "dimension_4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
