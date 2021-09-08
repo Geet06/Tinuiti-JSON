@@ -485,6 +485,69 @@
       "label": "Month Starting",
       "dimensionCategoryId": 1,
       "value": "date"
+    },
+    {
+      "dimensionId": "1_5",
+      "id": "dimension_5",
+      "label": "Monthly Paid Totals",
+      "dimensionCategoryId": 1,
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_6",
+      "id": "dimension_6",
+      "label": "Google",
+      "dimensionCategoryId": 1,
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_7",
+      "id": "dimension_7",
+      "label": "Facebook",
+      "dimensionCategoryId": 1,
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_8",
+      "id": "dimension_8",
+      "label": "Bing",
+      "dimensionCategoryId": 1,
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_9",
+      "id": "dimension_9",
+      "label": "Google Display Prospecting",
+      "dimensionCategoryId": 1,
+      "value": "date"
+    },
+    {
+      "dimensionId": "1_10",
+      "label": "Weekly Paid Totals",
+      "value": "date",
+      "dimensionCategoryId": 1,
+      "id": "dimension_10"
+    },
+    {
+      "dimensionId": "1_11",
+      "label": "Display",
+      "value": "date",
+      "dimensionCategoryId": 1,
+      "id": "dimension_11"
+    },
+    {
+      "dimensionId": "1_12",
+      "label": "Daily Paid Totals",
+      "value": "date",
+      "dimensionCategoryId": 1,
+      "id": "dimension_12"
+    },
+    {
+      "dimensionId": "1_13",
+      "label": "Channel",
+      "value": "channel",
+      "dimensionCategoryId": 1,
+      "id": "dimension_13"
     }
   ],
   "metricsList": [
@@ -4059,137 +4122,126 @@
         "reportId": 3,
         "tableName": "Daily Paid Totals",
         "tableId": 1,
+        "tableType": "",
         "groupName": "",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "impression",
-            "label": "Impression",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "spend",
+            "value": "cost",
             "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "cpo",
+            "value": "cpo",
             "label": "CPO",
             "id": "10",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "aov",
+            "value": "aov",
             "label": "AOV",
             "id": "11",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "cos",
+            "value": "cos",
             "label": "COS",
             "id": "12",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Daily Paid Totals",
-            "name": "date",
-            "id": "dimension_1",
+            "value": "date",
+            "id": "dimension_12",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -4205,45 +4257,71 @@
         "chartId": "1",
         "dimensions": [
           {
-            "id": "1",
-            "key": "google",
-            "value": "Google"
+            "label": "Channel",
+            "value": "channel",
+            "id": "dimension_13",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
-            "id": "2",
-            "key": "bing",
-            "value": "Bing"
-          },
-          {
-            "id": "3",
-            "key": "facebook",
-            "value": "Facebook"
+            "label": "Daily Paid Totals",
+            "value": "date",
+            "id": "dimension_12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ],
         "metrics": [
           {
-            "metric": "5/29/2021",
-            "google": 5.3,
-            "bing": 26,
-            "facebook": 8
+            "value": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "chart",
+        "chartType": "line",
+        "tableName": "Daily Spend by Channel",
+        "chartName": "Daily Spend by Channel",
+        "chartId": "1",
+        "dimensions": [
+          {
+            "label": "Channel",
+            "value": "channel",
+            "id": "dimension_13",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           },
           {
-            "metric": "5/22/2021",
-            "google": 6.45,
-            "bing": 30.5,
-            "facebook": 11.22
-          },
+            "label": "Daily Paid Totals",
+            "value": "date",
+            "id": "dimension_12",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "metrics": [
           {
-            "metric": "5/15/2021",
-            "google": 12.56,
-            "bing": 45.5,
-            "facebook": 6.5
-          },
-          {
-            "metric": "5/8/2021",
-            "google": 32,
-            "bing": 87,
-            "facebook": 15
+            "value": "cost",
+            "label": "Cost",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
           }
         ]
       },
@@ -4255,136 +4333,125 @@
         "reportId": 3,
         "tableName": "Bing",
         "tableId": 2,
+        "tableType": "",
         "hideHeader": "",
         "groupId": "1",
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "impressions",
-            "label": "impressions",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "spend",
+            "value": "cost",
             "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "cpo",
+            "value": "cpo",
             "label": "CPO",
             "id": "10",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "aov",
+            "value": "aov",
             "label": "AOV",
             "id": "11",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "cos",
+            "value": "cos",
             "label": "COS",
             "id": "12",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
+            "id": "dimension_8",
             "label": "Bing",
-            "name": "date",
-            "id": "dimension_2",
+            "value": "date",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -4400,190 +4467,129 @@
         "reportId": 3,
         "tableName": "Facebook",
         "tableId": 3,
+        "tableType": "",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "impressions",
-            "label": "impressions",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "spend",
+            "value": "cost",
             "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "cpo",
+            "value": "cpo",
             "label": "CPO",
             "id": "10",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "aov",
+            "value": "aov",
             "label": "AOV",
             "id": "11",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "cos",
+            "value": "cos",
             "label": "COS",
             "id": "12",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
+            "id": "dimension_7",
             "label": "Facebook",
-            "name": "date",
-            "id": "dimension_3",
+            "value": "date",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
             "CanFilter": true
-          }
-        ]
-      },
-      {
-        "visualType": "chart",
-        "chartType": "line",
-        "tableName": "Daily Revenue by Channel",
-        "chartName": "Daily Revenue by Channel",
-        "chartId": "1",
-        "dimensions": [
-          {
-            "id": "1",
-            "key": "google",
-            "value": "Google"
-          },
-          {
-            "id": "2",
-            "key": "bing",
-            "value": "Bing"
-          },
-          {
-            "id": "3",
-            "key": "facebook",
-            "value": "Facebook"
-          }
-        ],
-        "metrics": [
-          {
-            "metric": "5/29/2021",
-            "google": 5.3,
-            "bing": 26,
-            "facebook": 8
-          },
-          {
-            "metric": "5/22/2021",
-            "google": 6.45,
-            "bing": 30.5,
-            "facebook": 11.22
-          },
-          {
-            "metric": "5/15/2021",
-            "google": 12.56,
-            "bing": 45.5,
-            "facebook": 6.5
-          },
-          {
-            "metric": "5/8/2021",
-            "google": 32,
-            "bing": 87,
-            "facebook": 15
           }
         ]
       },
@@ -4595,136 +4601,125 @@
         "reportId": 3,
         "tableName": "Google",
         "tableId": 4,
+        "tableType": "",
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
         "metrics": [
           {
-            "name": "click",
-            "label": "Click",
+            "value": "clicks",
+            "label": "Clicks",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "impressions",
-            "label": "impressions",
+            "value": "impressions",
+            "label": "Impressions",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "spend",
+            "value": "cost",
             "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "cpo",
+            "value": "cpo",
             "label": "CPO",
             "id": "10",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "aov",
+            "value": "aov",
             "label": "AOV",
             "id": "11",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "cos",
+            "value": "cos",
             "label": "COS",
             "id": "12",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
+            "id": "dimension_6",
             "label": "Google",
-            "name": "date",
-            "id": "dimension_4",
+            "value": "date",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
