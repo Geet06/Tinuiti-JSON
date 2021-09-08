@@ -2432,7 +2432,7 @@
       ]
     }
   ],
-  "monthlyOverviewHeader": {
+  "monthlyOverviewHeaderComparison": {
     "reportValue": "MONTHLY_OVERVIEW_REPORT",
     "reportLabel": "Monthly Overview",
     "reportId": 2,
@@ -2456,7 +2456,7 @@
             "tableId": 1,
             "id": 1,
             "comparisonData1": {
-              "name": "click1",
+              "value": "click1",
               "label": "2020",
               "CanSort": true,
               "CanResize": "",
@@ -2464,7 +2464,7 @@
               "CanFilter": true
             },
             "comparisonData2": {
-              "name": "click2",
+              "value": "click2",
               "label": "2021",
               "CanSort": true,
               "CanResize": "",
@@ -2478,7 +2478,7 @@
             "isComparisonPeriodFlag": true,
             "tableId": 1,
             "comparisonData1": {
-              "name": "impression1",
+              "value": "impression1",
               "label": "2020",
               "CanSort": true,
               "CanResize": "",
@@ -3511,7 +3511,7 @@
       }
     ]
   },
-  "monthlyDimensionData": [
+  "monthlyDimensionDataComparison": [
     {
       "reportName": "Monthly Overview",
       "reportId": 2,
@@ -4103,6 +4103,871 @@
           "aov2": "51",
           "cos1": "15",
           "cos2": "23",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    }
+  ],
+  "monthlyOverviewHeader": {
+    "reportValue": "MONTHLY_OVERVIEW_REPORT",
+    "reportLabel": "Monthly Overview",
+    "reportId": 2,
+    "elements": [
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Monthly Paid Totals",
+        "tableId": 1,
+        "tableType": "Monthly",
+        "groupName": "",
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Clicks",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impressions",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Monthly Paid Totals",
+            "value": "date",
+            "id": "dimension_5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Google",
+        "tableId": 2,
+        "tableType": "Monthly",
+        "hideHeader": "",
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Clicks",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impressions",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Google",
+            "value": "date",
+            "id": "dimension_6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Facebook",
+        "tableId": 3,
+        "tableType": "Monthly",
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Clicks",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impressions",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Facebook",
+            "value": "date",
+            "id": "dimension_7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Bing",
+        "tableId": 4,
+        "tableType": "Monthly",
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Clicks",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impressions",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Bing",
+            "value": "date",
+            "id": "dimension_8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Monthly Overview",
+        "reportId": 2,
+        "tableName": "Google Display Prospecting",
+        "tableId": 5,
+        "tableType": "Monthly",
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Clicks",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impressions",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "name": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Google Display Prospecting",
+            "value": "date",
+            "id": "dimension_9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      }
+    ]
+  },
+  "monthlyDimensionData": [
+    {
+      "reportName": "Monnthly Overview",
+      "reportId": 2,
+      "tableName": "Monthly Paid Totals",
+      "tableId": 1,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Google",
+      "tableId": 2,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Facebook",
+      "tableId": 3,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Bing",
+      "tableId": 4,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Monthly Overview",
+      "reportId": 2,
+      "tableName": "Google Display Prospecting",
+      "tableId": 5,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
           "toolTipEnable": true,
           "toolTipFormat": ""
         }
@@ -5120,66 +5985,61 @@
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
+        "tableType": "Weekly",
         "metrics": [
           {
-            "name": "click",
+            "value": "clicks",
             "label": "Click",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "impressions",
+            "value": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "cost",
+            "value": "cost",
             "label": "Cost",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 1
+            "CanFilter": false
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 1
+            "CanFilter": false
           },
           {
             "name": "conversion_rate",
@@ -5188,35 +6048,32 @@
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 1
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Weekly Paid Totals",
-            "name": "date",
-            "id": "dimension_1",
+            "value": "date",
+            "id": "dimension_10",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -5235,103 +6092,95 @@
         "hideHeader": "",
         "groupId": "1",
         "isEditPopupOpen": false,
+        "tableType": "Weekly",
         "metrics": [
           {
-            "name": "click",
+            "value": "clicks",
             "label": "Click",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "impression",
+            "value": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "cost",
+            "value": "cost",
             "label": "Cost",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 2
+            "CanFilter": false
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 2
+            "CanFilter": false
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 2
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Google",
-            "name": "date",
-            "id": "dimension_2",
+            "value": "date",
+            "id": "dimension_6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -5343,110 +6192,102 @@
         "visualType": "table",
         "Rows": 5,
         "Cols": 7,
-        "reportName": "Executive Overview",
+        "reportName": "Weekly Overview",
         "reportId": 4,
         "tableName": "Facebook",
         "tableId": 3,
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
+        "tableType": "Weekly",
         "metrics": [
           {
-            "name": "click",
+            "value": "clicks",
             "label": "Click",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "impression",
+            "value": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "cost",
+            "value": "cost",
             "label": "Cost",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 3
+            "CanFilter": false
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 3
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Facebook",
-            "name": "date",
-            "id": "dimension_3",
+            "value": "date",
+            "id": "dimension_7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -5465,103 +6306,95 @@
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
+        "tableType": "Weekly",
         "metrics": [
           {
-            "name": "click",
+            "value": "clicks",
             "label": "Click",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "impression",
+            "value": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "cost",
+            "value": "cost",
             "label": "Cost",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 4
+            "CanFilter": false
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 4
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Bing",
-            "name": "date",
-            "id": "dimension_4",
+            "value": "date",
+            "id": "dimension_8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -5580,103 +6413,202 @@
         "hideHeader": false,
         "groupId": "1",
         "isEditPopupOpen": false,
+        "tableType": "Weekly",
         "metrics": [
           {
-            "name": "click",
+            "value": "clicks",
             "label": "Click",
             "id": "1",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "impression",
+            "value": "impressions",
             "label": "Impression",
             "id": "2",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "ctr",
+            "value": "ctr",
             "label": "CTR",
             "id": "3",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "cost",
+            "value": "cost",
             "label": "Cost",
             "id": "4",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "cpc",
+            "value": "cpc",
             "label": "CPC",
             "id": "5",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "conversions",
+            "value": "conversions",
             "label": "Conversions",
             "id": "6",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": false,
-            "tableId": 5
+            "CanFilter": false
           },
           {
-            "name": "conversion_rate",
+            "value": "conversion_rate",
             "label": "ConversionRate",
             "id": "7",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "revenue",
+            "value": "revenue",
             "label": "Revenue",
             "id": "8",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           },
           {
-            "name": "roas",
+            "value": "roas",
             "label": "ROAS",
             "id": "9",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
-            "CanFilter": true,
-            "tableId": 5
+            "CanFilter": true
           }
         ],
         "dimensions": [
           {
             "label": "Google Display Prospecting",
-            "name": "date",
-            "id": "dimension_5",
+            "value": "date",
+            "id": "dimension_9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ]
+      },
+      {
+        "visualType": "table",
+        "Rows": 5,
+        "Cols": 7,
+        "reportName": "Weekly Overview",
+        "reportId": 4,
+        "tableName": "Display",
+        "tableId": 6,
+        "hideHeader": false,
+        "groupId": "1",
+        "isEditPopupOpen": false,
+        "tableType": "Weekly",
+        "metrics": [
+          {
+            "value": "clicks",
+            "label": "Click",
+            "id": "1",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "impressions",
+            "label": "Impression",
+            "id": "2",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "ctr",
+            "label": "CTR",
+            "id": "3",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "cost",
+            "label": "Cost",
+            "id": "4",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "cpc",
+            "label": "CPC",
+            "id": "5",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "conversions",
+            "label": "Conversions",
+            "id": "6",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": false
+          },
+          {
+            "value": "conversion_rate",
+            "label": "ConversionRate",
+            "id": "7",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "revenue",
+            "label": "Revenue",
+            "id": "8",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          },
+          {
+            "value": "roas",
+            "label": "ROAS",
+            "id": "9",
+            "CanSort": true,
+            "CanResize": "",
+            "CanHide": "",
+            "CanFilter": true
+          }
+        ],
+        "dimensions": [
+          {
+            "label": "Display",
+            "value": "date",
+            "id": "dimension_11",
             "CanSort": true,
             "CanResize": "",
             "CanHide": "",
@@ -5695,13 +6627,13 @@
       "data": [
         {
           "date": "08/28/2021",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
           "cost": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "toolTipEnable": true,
@@ -5709,13 +6641,13 @@
         },
         {
           "date": "08/29/2021",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
           "cost": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5723,13 +6655,13 @@
         },
         {
           "date": "09/01/2021",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "cost": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5737,13 +6669,13 @@
         },
         {
           "date": "09/02/2021",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
           "cost": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "10",
           "toolTipEnable": true,
@@ -5759,13 +6691,13 @@
       "data": [
         {
           "date": "08/28/2021",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
           "cost": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "toolTipEnable": true,
@@ -5773,13 +6705,13 @@
         },
         {
           "date": "08/29/2021",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
           "cost": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5787,13 +6719,13 @@
         },
         {
           "date": "09/01/2021",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "cost": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5801,13 +6733,13 @@
         },
         {
           "date": "09/02/2021",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
           "cost": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "10",
           "toolTipEnable": true,
@@ -5823,13 +6755,13 @@
       "data": [
         {
           "date": "08/28/2021",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
           "cost": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "toolTipEnable": true,
@@ -5837,13 +6769,13 @@
         },
         {
           "date": "08/29/2021",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
           "cost": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5851,13 +6783,13 @@
         },
         {
           "date": "09/01/2021",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "cost": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5865,13 +6797,13 @@
         },
         {
           "date": "09/02/2021",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
           "cost": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "10",
           "toolTipEnable": true,
@@ -5887,13 +6819,13 @@
       "data": [
         {
           "date": "08/28/2021",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
           "cost": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "toolTipEnable": true,
@@ -5901,13 +6833,13 @@
         },
         {
           "date": "08/29/2021",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
           "cost": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5915,13 +6847,13 @@
         },
         {
           "date": "09/01/2021",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "cost": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5929,13 +6861,13 @@
         },
         {
           "date": "09/02/2021",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
           "cost": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "10",
           "toolTipEnable": true,
@@ -5951,13 +6883,13 @@
       "data": [
         {
           "date": "08/28/2021",
-          "click": "10",
-          "impression": "15",
+          "clicks": "10",
+          "impressions": "15",
           "ctr": "10",
           "cost": "20",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "15",
+          "conversion_rate": "15",
           "revenue": "30",
           "roas": "30",
           "toolTipEnable": true,
@@ -5965,13 +6897,13 @@
         },
         {
           "date": "08/29/2021",
-          "click": "20",
-          "impression": "15",
+          "clicks": "20",
+          "impressions": "15",
           "ctr": "20",
           "cost": "10",
           "cpc": "40",
           "conversions": "-",
-          "conversionRate": "12",
+          "conversion_rate": "12",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5979,13 +6911,13 @@
         },
         {
           "date": "09/01/2021",
-          "click": "15",
-          "impression": "25",
+          "clicks": "15",
+          "impressions": "25",
           "ctr": "10",
           "cost": "17",
           "cpc": "20",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "-",
           "toolTipEnable": true,
@@ -5993,13 +6925,77 @@
         },
         {
           "date": "09/02/2021",
-          "click": "7",
-          "impression": "18",
+          "clicks": "7",
+          "impressions": "18",
           "ctr": "14",
           "cost": "15",
           "cpc": "10",
           "conversions": "-",
-          "conversionRate": "2",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "10",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        }
+      ]
+    },
+    {
+      "reportName": "Weekly Overview",
+      "reportId": 4,
+      "tableName": "Display",
+      "tableId": 6,
+      "data": [
+        {
+          "date": "08/28/2021",
+          "clicks": "10",
+          "impressions": "15",
+          "ctr": "10",
+          "cost": "20",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "15",
+          "revenue": "30",
+          "roas": "30",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "08/29/2021",
+          "clicks": "20",
+          "impressions": "15",
+          "ctr": "20",
+          "cost": "10",
+          "cpc": "40",
+          "conversions": "-",
+          "conversion_rate": "12",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/01/2021",
+          "clicks": "15",
+          "impressions": "25",
+          "ctr": "10",
+          "cost": "17",
+          "cpc": "20",
+          "conversions": "-",
+          "conversion_rate": "2",
+          "revenue": "$0",
+          "roas": "-",
+          "toolTipEnable": true,
+          "toolTipFormat": ""
+        },
+        {
+          "date": "09/02/2021",
+          "clicks": "7",
+          "impressions": "18",
+          "ctr": "14",
+          "cost": "15",
+          "cpc": "10",
+          "conversions": "-",
+          "conversion_rate": "2",
           "revenue": "$0",
           "roas": "10",
           "toolTipEnable": true,
