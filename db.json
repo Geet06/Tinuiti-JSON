@@ -544,8 +544,8 @@
     },
     {
       "dimensionId": "1_13",
-      "label": "Channel",
-      "value": "channel",
+      "label": "Channels",
+      "value": "channels",
       "dimensionCategoryId": 1,
       "id": "dimension_13"
     }
@@ -4257,8 +4257,8 @@
         "chartId": "1",
         "dimensions": [
           {
-            "label": "Channel",
-            "value": "channel",
+            "label": "Channels",
+            "value": "channels",
             "id": "dimension_13",
             "CanSort": true,
             "CanResize": "",
@@ -4295,8 +4295,8 @@
         "chartId": "1",
         "dimensions": [
           {
-            "label": "Channel",
-            "value": "channel",
+            "label": "Channels",
+            "value": "channels",
             "id": "dimension_13",
             "CanSort": true,
             "CanResize": "",
